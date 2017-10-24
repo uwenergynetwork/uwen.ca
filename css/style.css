@@ -211,7 +211,7 @@ input, button, submit{
 
 #events{
   margin-top: 10%;
-  height: 82.5vh;
+  min-height: 82.5vh;
   padding: 3%;
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
