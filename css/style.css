@@ -23,6 +23,7 @@ a:hover{
     opacity: 0.5;
 }
 
+
 .navbar-nav {
   float:none;
   margin:0 auto;
@@ -71,6 +72,10 @@ a:hover{
   padding: 1%;
 }
 
+#apply-here-button {
+  margin-left: 40%;
+}
+
 .heading{
   margin-bottom: 2%;
 }
@@ -90,7 +95,7 @@ a:hover{
   margin-bottom: 2%;
 }
 
-#past-event-individual {
+#event-individual {
   text-align: left;
   width: 55%;
 }
