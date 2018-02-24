@@ -101,18 +101,23 @@ a:hover{
   text-align: center;
   padding: 2%;
   padding-top: 1%;
-  width: 200px;
-  margin-left: 35%;
+  margin-left: 40%;
+  min-width: 30px;
 }
 
 #send-email-event:hover {
   opacity: 0.7;
 }
 
+.past-events-titles {
+  font-size: 20px;
+}
+
 #event-individual {
   text-align: left;
   width: 55%;
   padding-top: 2%;
+  padding-right: 3%;
 }
 
 #front-page-info{
