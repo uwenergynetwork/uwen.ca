@@ -74,6 +74,26 @@ a:hover{
 .heading{
   margin-bottom: 2%;
 }
+.heading_events{
+  margin-top: 1%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-size: 60px;
+}
+.heading_events2{
+  font-size: 20px;
+  text-align: center;
+}
+.events-header {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#past-event-individual {
+  text-align: left;
+  width: 55%;
+}
 
 #front-page-info{
   background-color:transparent !important;
@@ -204,9 +224,9 @@ input, button, submit{
 }
 
 #events{
-  margin-top: 10%;
+  margin-top: 3%;
   min-height: 82.5vh;
-  padding: 3%;
+  padding: 2%;
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
 }
