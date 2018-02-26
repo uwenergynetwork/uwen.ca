@@ -253,3 +253,30 @@ input, button, submit{
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+#background-solar-panels{
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../img/solar-panels.jpg) no-repeat;
+  background-size: cover;
+}
+
+#articles{
+  margin-top: 3%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.article-preview{
+	background-color: rgba(0, 0, 0, 0.2);
+}
