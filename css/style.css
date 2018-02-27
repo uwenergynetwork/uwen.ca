@@ -273,10 +273,10 @@ input, button, submit{
 
 #articles{
   margin-top: 3%;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  color: black;
+  background-color: rgba(135, 200, 256, 0.7);
 }
 
 .article-preview{
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(66, 158, 244, 0.9);
 }
