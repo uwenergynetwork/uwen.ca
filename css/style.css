@@ -255,7 +255,8 @@ input, button, submit{
 }
 
 #background-solar-panels{
-	position: fixed;
+  position: fixed;
+  z-index:-99;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -278,5 +279,5 @@ input, button, submit{
 }
 
 .article-preview{
-	background-color: rgba(66, 158, 244, 0.9);
+	background-color: rgba(256, 256, 256, 0.8);
 }
