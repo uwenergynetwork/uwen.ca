@@ -1,2 +1,0 @@
-# uwaterlooenergynetwork.github.io
-"test"
