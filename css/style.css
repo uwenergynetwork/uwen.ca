@@ -1,5 +1,6 @@
 body {
-  height: 100vh
+  height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 button:focus, button:active, input:focus, input:active {
@@ -36,7 +37,7 @@ button:focus, button:active, input:focus, input:active {
   border-radius: 0 10vh 10vh 0;
   background-color: #4B4B4B;
   border-style: none;
-  color: #FFC909; 
+  color: #FFC909;
   cursor: default;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -71,6 +72,14 @@ button:focus, button:active, input:focus, input:active {
   font-size: 500%;
 }
 
+.bg-page {
+  border-radius: 10vh 10vh 0 0;
+}
+
+.headshot {
+  border-radius: 50%;
+}
+
 video#bgvid {
   position: fixed;
   top: 50%;
@@ -103,4 +112,15 @@ video#bgvid {
 #navbar-custom {
   border-radius: 0 0 3vh 3vh;
   background-color: #4B4B4B;
+}
+
+#about-page {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#subtitle {
+  color: #FFC909; 
 }
