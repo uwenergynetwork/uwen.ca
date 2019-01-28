@@ -1,3 +1,6 @@
+//use to convert jsx to js files
+//npx babel --watch js/jsx --out-dir js --presets react-app/prod
+
 'use strict';
 
 const e = React.createElement;

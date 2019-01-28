@@ -80,6 +80,10 @@ button:focus, button:active, input:focus, input:active {
   border-radius: 50%;
 }
 
+.events-image {
+  height: auto;
+}
+
 video#bgvid {
   position: fixed;
   top: 50%;

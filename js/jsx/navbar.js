@@ -12,7 +12,6 @@ class NavBar extends React.Component {
 
 	render() {
 		
-
 		return (
 			<div>
 				<nav id="navbar-custom" className="col-xl-6 col-lg-7 col-md-9 mx-auto navbar navbar-expand-sm">
