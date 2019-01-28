@@ -31,7 +31,7 @@ var execs = [{
 	name: "Emma Lozkins",
 	position: "VP Tech",
 	program: "Computer Engineering",
-	img: "headshot.png"
+	img: "emma.png"
 }, {
 	name: "Gloria Li",
 	position: "??",
@@ -44,7 +44,7 @@ var execs = [{
 	img: "akshar.png"
 }, {
 	name: "Maya Gupta",
-	position: "??",
+	position: "VP Events",
 	program: "Management Engineering",
 	img: "maya.png"
 }, {
