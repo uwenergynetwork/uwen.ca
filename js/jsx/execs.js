@@ -28,19 +28,7 @@ const execs = [
 		position: "VP Tech",
 		program: "Computer Engineering",
 		img: "emma.png"
-	},
-	{
-		name: "Gloria Li",
-		position: "??",
-		program: "Accounting and Financial Management",
-		img: "gloria.png"
-	},
-	{
-		name: "Akshar Goyal",
-		position: "??",
-		program: "Computer Science",
-		img: "akshar.png"
-	},
+	},,
 	{
 		name: "Maya Gupta",
 		position: "VP Events",
@@ -49,15 +37,27 @@ const execs = [
 	},
 	{
 		name: "Guy Brodsky",
-		position: "??",
+		position: "VP Finance/Sponsorship",
+		program: "??",
+		img: "guy.png"
+	},
+	{
+		name: "Matthew Teelucksingh",
+		position: "VP Operations",
 		program: "??",
 		img: "headshot.png"
 	},
 	{
-		name: "Matthew Teelucksingh",
-		position: "??",
-		program: "??",
-		img: "headshot.png"
+		name: "Akshar Goyal",
+		position: "Events Outreach Lead",
+		program: "Computer Science",
+		img: "akshar.png"
+	},
+	{
+		name: "Gloria Li",
+		position: "Events Outreach Lead",
+		program: "Accounting and Financial Management",
+		img: "gloria.png"
 	},
 ]
 
