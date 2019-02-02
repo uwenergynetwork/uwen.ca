@@ -12,19 +12,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var e = React.createElement;
-var events = [{
-	name: "Event 1",
-	description: "The University of Waterloo Energy Network is a group of students bound together by a shared belief in a sustainable approach to the Energy Industry and Climate Change. UWEN offers the chance for like-minded students to attend educational seminars and panel discussions, participate in exciting competitions and network with industry professionals. We endeavor to provide a platform for all points of view with the aim of stimulating discussion and broadening knowledge.",
-	img: "future-of-energy.jpeg"
-}, {
-	name: "Event 2",
-	description: "The University of Waterloo Energy Network is a group of students bound together by a shared belief in a sustainable approach to the Energy Industry and Climate Change. UWEN offers the chance for like-minded students to attend educational seminars and panel discussions, participate in exciting competitions and network with industry professionals. We endeavor to provide a platform for all points of view with the aim of stimulating discussion and broadening knowledge.",
-	img: "future-of-energy.jpeg"
-}, {
-	name: "Event 3",
-	description: "The University of Waterloo Energy Network is a group of students bound together by a shared belief in a sustainable approach to the Energy Industry and Climate Change. UWEN offers the chance for like-minded students to attend educational seminars and panel discussions, participate in exciting competitions and network with industry professionals. We endeavor to provide a platform for all points of view with the aim of stimulating discussion and broadening knowledge.",
-	img: "future-of-energy.jpeg"
-}];
 
 var Events = function (_React$Component) {
 	_inherits(Events, _React$Component);
@@ -32,17 +19,42 @@ var Events = function (_React$Component) {
 	function Events(props) {
 		_classCallCheck(this, Events);
 
-		return _possibleConstructorReturn(this, (Events.__proto__ || Object.getPrototypeOf(Events)).call(this, props));
+		var _this = _possibleConstructorReturn(this, (Events.__proto__ || Object.getPrototypeOf(Events)).call(this, props));
+
+		_this.state = {
+			events: []
+		};
+		return _this;
 	}
 
 	_createClass(Events, [{
+		key: "componentDidMount",
+		value: function componentDidMount() {
+			Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTnOtXBodlDg_CylMgtqzJzgPKip8rhmpf9JAxAa9cHRUIvolKTSxU7nMeN4F5qZDIaGXVqmV_SYLUR/pub?output=csv", {
+				download: true,
+				complete: function (results) {
+					console.log(results);
+					var newEvents = results.data.map(function (item) {
+						return {
+							name: item[0],
+							description: item[1],
+							img: item[2]
+						};
+					});
+					this.setState({
+						events: newEvents
+					});
+				}.bind(this)
+			});
+		}
+	}, {
 		key: "render",
 		value: function render() {
-
+			console.log(this.state);
 			return React.createElement(
 				"div",
 				{ className: "row col-12" },
-				events.map(function (event) {
+				this.state.events.map(function (event) {
 					return React.createElement(
 						"div",
 						null,

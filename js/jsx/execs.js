@@ -38,13 +38,13 @@ const execs = [
 	{
 		name: "Guy Brodsky",
 		position: "VP Finance/Sponsorship",
-		program: "??",
+		program: "Environment, Resources and Sustainability",
 		img: "guy.png"
 	},
 	{
 		name: "Matthew Teelucksingh",
 		position: "VP Operations",
-		program: "??",
+		program: "Environment, Resources and Sustainability",
 		img: "headshot.png"
 	},
 	{
@@ -76,7 +76,7 @@ class Execs extends React.Component {
 						<img className="col-12 headshot" src={"img/headshots/" + exec.img} alt="img/headshots/headshot.png"/>
 						<h3 className="p-3">{exec.name}</h3>
 						<h4>{exec.position}</h4>
-						<h4>{exec.program}</h4>
+						<h5>{exec.program}</h5>
 					</div>)
 				}
 			</div>

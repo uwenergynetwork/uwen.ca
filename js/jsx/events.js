@@ -4,34 +4,40 @@
 'use strict';
 
 const e = React.createElement;
-const events = [
-	{
-		name: "Event 1",
-		description: "The University of Waterloo Energy Network is a group of students bound together by a shared belief in a sustainable approach to the Energy Industry and Climate Change. UWEN offers the chance for like-minded students to attend educational seminars and panel discussions, participate in exciting competitions and network with industry professionals. We endeavor to provide a platform for all points of view with the aim of stimulating discussion and broadening knowledge.",
-		img: "future-of-energy.jpeg"
-	},
-	{
-		name: "Event 2",
-		description: "The University of Waterloo Energy Network is a group of students bound together by a shared belief in a sustainable approach to the Energy Industry and Climate Change. UWEN offers the chance for like-minded students to attend educational seminars and panel discussions, participate in exciting competitions and network with industry professionals. We endeavor to provide a platform for all points of view with the aim of stimulating discussion and broadening knowledge.",
-		img: "future-of-energy.jpeg"
-	},
-	{
-		name: "Event 3",
-		description: "The University of Waterloo Energy Network is a group of students bound together by a shared belief in a sustainable approach to the Energy Industry and Climate Change. UWEN offers the chance for like-minded students to attend educational seminars and panel discussions, participate in exciting competitions and network with industry professionals. We endeavor to provide a platform for all points of view with the aim of stimulating discussion and broadening knowledge.",
-		img: "future-of-energy.jpeg"
-	}
-]
+
 class Events extends React.Component {
 	constructor(props) {
 		super(props);
+		this.state ={
+			events: []
+		}
+	}
+
+	componentDidMount() {
+		Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTnOtXBodlDg_CylMgtqzJzgPKip8rhmpf9JAxAa9cHRUIvolKTSxU7nMeN4F5qZDIaGXVqmV_SYLUR/pub?output=csv", {
+			download: true,
+			complete: function(results) {
+				console.log(results)
+				var newEvents = results.data.map(function(item) {
+					return {
+						name: item[0],
+						description: item[1],
+						img: item[2],
+					}
+				});
+				this.setState({
+					events: newEvents
+				});
+			}.bind(this)
+		});
 	}
 
 	render() {
-
+		console.log(this.state)
 		return (
 			<div className="row col-12">
 				{ 
-					events.map((event) => 
+					this.state.events.map((event) => 
 					<div>
 						<h1 id="subtitle">{event.name}</h1>
 						<div className="row">

@@ -32,31 +32,31 @@ var execs = [{
 	position: "VP Tech",
 	program: "Computer Engineering",
 	img: "emma.png"
-}, {
-	name: "Gloria Li",
-	position: "??",
-	program: "Accounting and Financial Management",
-	img: "gloria.png"
-}, {
-	name: "Akshar Goyal",
-	position: "??",
-	program: "Computer Science",
-	img: "akshar.png"
-}, {
+},, {
 	name: "Maya Gupta",
 	position: "VP Events",
 	program: "Management Engineering",
 	img: "maya.png"
 }, {
 	name: "Guy Brodsky",
-	position: "??",
-	program: "??",
-	img: "headshot.png"
+	position: "VP Finance/Sponsorship",
+	program: "Environment, Resources and Sustainability",
+	img: "guy.png"
 }, {
 	name: "Matthew Teelucksingh",
-	position: "??",
-	program: "??",
+	position: "VP Operations",
+	program: "Environment, Resources and Sustainability",
 	img: "headshot.png"
+}, {
+	name: "Akshar Goyal",
+	position: "Events Outreach Lead",
+	program: "Computer Science",
+	img: "akshar.png"
+}, {
+	name: "Gloria Li",
+	position: "Events Outreach Lead",
+	program: "Accounting and Financial Management",
+	img: "gloria.png"
 }];
 
 var Execs = function (_React$Component) {
@@ -91,7 +91,7 @@ var Execs = function (_React$Component) {
 							exec.position
 						),
 						React.createElement(
-							"h4",
+							"h5",
 							null,
 							exec.program
 						)
