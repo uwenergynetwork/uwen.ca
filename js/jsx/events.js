@@ -35,7 +35,7 @@ class Events extends React.Component {
 	render() {
 		console.log(this.state)
 		return (
-			<div className="row col-12">
+			<div className="row col-12 m-0">
 				{ 
 					this.state.events.map((event) => 
 					<div>

@@ -69,10 +69,10 @@ class Execs extends React.Component {
 	render() {
 
 		return (
-			<div className="row col-12">
+			<div className="row col-12 m-0">
 				{ 
 					execs.map((exec) => 
-					<div className="col-lg-4 col-md-6 col-sm-10 text-center p-2 mb-3">
+					<div className="col-lg-4 col-md-6 col-sm-10 text-center p-2 mb-3 mx-auto">
 						<img className="col-12 headshot" src={"img/headshots/" + exec.img} alt="img/headshots/headshot.png"/>
 						<h3 className="p-3">{exec.name}</h3>
 						<h4>{exec.position}</h4>

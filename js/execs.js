@@ -74,11 +74,11 @@ var Execs = function (_React$Component) {
 
 			return React.createElement(
 				"div",
-				{ className: "row col-12" },
+				{ className: "row col-12 m-0" },
 				execs.map(function (exec) {
 					return React.createElement(
 						"div",
-						{ className: "col-lg-4 col-md-6 col-sm-10 text-center p-2 mb-3" },
+						{ className: "col-lg-4 col-md-6 col-sm-10 text-center p-2 mb-3 mx-auto" },
 						React.createElement("img", { className: "col-12 headshot", src: "img/headshots/" + exec.img, alt: "img/headshots/headshot.png" }),
 						React.createElement(
 							"h3",

@@ -53,7 +53,7 @@ var Events = function (_React$Component) {
 			console.log(this.state);
 			return React.createElement(
 				"div",
-				{ className: "row col-12" },
+				{ className: "row col-12 m-0" },
 				this.state.events.map(function (event) {
 					return React.createElement(
 						"div",
