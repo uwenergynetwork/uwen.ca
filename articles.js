@@ -18,14 +18,14 @@ var articles = [{
 	author: "Cameron Martin",
 	program: "Nanotechnology Engineering",
 	content: "I'll preface this article by saying that I am in no way an energy expert- I'm somewhat new to the energy community and while I have gained lots of knowledge and met some interesting people from the position I've been in since last semester, I'm always wanting to know more and broaden my horizons within renewable and alternative energy solutions. My problem is, how exactly does one go about this? I could watch countless youtube videos and read Wikipedia for days, but beyond an over-arching grasp of some abstract concepts (which is still useful), I don't think students have...",
-	link: "https://medium.com/@uwenergynetwork/the-university-of-waterloo-needs-an-energy-engineering-program-ff3ba6724b15"
+	link: "https://medium.com"
 }, {
 	name: "Soft law for the energy industry",
 	date: "Febuary 26th, 2018",
 	author: "Aidan O'Gorman",
 	program: "Chemical Engineering",
 	content: "Earlier last summer, when America announced its intention to withdraw from the Paris Agreement, many tried to rationalize what it meant for their country, the world, and the integrity of the agreement itself. Largely unaddressed in this discussion was the impact of various mechanisms that are created as a result of agreements such as this one and other forms of soft law. While many hard laws can often create further issues, division and resistance to implementation, soft law is a necessary tool to facilitate the transition towards more sustainable energy sources....",
-	link: "https://medium.com/@uwenergynetwork/soft-law-for-the-energy-industry-126169cc25c1"
+	link: "https://medium.com"
 }];
 
 var Articles = function (_React$Component) {
