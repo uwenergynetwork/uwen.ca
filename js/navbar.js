@@ -48,7 +48,7 @@ var NavBar = function (_React$Component) {
 								{ className: "nav-item text-center" },
 								React.createElement(
 									"a",
-									{ className: "pl-2 pr-2 navbar-link " + (this.state.page == "index.html" ? "current-page" : ""), href: "index.html" },
+									{ className: "pl-2 pr-2 navbar-link " + ((this.state.page == "index.html" || this.state.page == "") ? "current-page" : ""), href: "index.html" },
 									"Home"
 								)
 							),
