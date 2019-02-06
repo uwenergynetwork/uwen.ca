@@ -13,7 +13,7 @@ const execs = [
 	},
 	{
 		name: "Aidan O'Gorman",
-		position: "VP External",
+		position: "Co-president",
 		program: "Chemical Engineering",
 		img: "aidan.png"
 	},
