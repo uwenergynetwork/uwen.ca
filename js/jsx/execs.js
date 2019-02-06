@@ -45,7 +45,7 @@ const execs = [
 		name: "Matthew Teelucksingh",
 		position: "VP Operations",
 		program: "Environment, Resources and Sustainability",
-		img: "headshot.png"
+		img: "matt.png"
 	},
 	{
 		name: "Akshar Goyal",
