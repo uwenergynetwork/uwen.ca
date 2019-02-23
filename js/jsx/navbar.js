@@ -25,7 +25,8 @@ class NavBar extends React.Component {
 					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page == "events.html" ? "current-page" : "")} href="events.html">Events</a></li>
 					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page == "hacks.html" ? "current-page" : "")} href="hacks.html">uwEnergyHacks</a></li>
 					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page == "articles.html" ? "current-page" : "")} href="articles.html">Articles</a></li>
-					</x-3</div>
+					</ul>
+				</div>
 
 				<button className="navbar-toggler col-12 p-0 m-0" data-toggle="collapse" data-target="#collapsibleNavbar">
 					<svg width="3vh" height="3vh" className="three-bars" viewBox="0 0 12 16" version="1.1" aria-hidden="true">
