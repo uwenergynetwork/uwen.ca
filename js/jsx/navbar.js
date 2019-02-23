@@ -20,13 +20,12 @@ class NavBar extends React.Component {
 				<nav id="navbar-custom" className="col-xl-6 col-lg-7 col-md-9 mx-auto navbar navbar-expand-sm">
 				<div className="collapse navbar-collapse" id="collapsibleNavbar">
 					<ul className="col-12 d-flex justify-content-center navbar-nav">
-					<li className="nav-item text-center"><a className={"pl-2 pr-2 navbar-link " + ((this.state.page == "index.html" || this.state.page == "") ? "current-page" : "")} href="index.html">Home</a></li>
-					<li className="nav-item text-center"><a className={"pl-2 pr-2 navbar-link " + (this.state.page == "about.html" ? "current-page" : "")} href="about.html">About</a></li>
-					<li className="nav-item text-center"><a className={"pl-2 pr-2 navbar-link " + (this.state.page == "events.html" ? "current-page" : "")} href="events.html">Events</a></li>
-					<li className="nav-item text-center"><a className={"pl-2 pr-2 navbar-link " + (this.state.page == "hacks.html" ? "current-page" : "")} href="hacks.html">uwEnergyHacks</a></li>
-					<li className="nav-item text-center"><a className={"pl-2 pr-2 navbar-link " + (this.state.page == "articles.html" ? "current-page" : "")} href="articles.html">Articles</a></li>
-					</ul>
-				</div>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + ((this.state.page == "index.html" || this.state.page == "") ? "current-page" : "")} href="index.html">Home</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page == "about.html" ? "current-page" : "")} href="about.html">About</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page == "events.html" ? "current-page" : "")} href="events.html">Events</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page == "hacks.html" ? "current-page" : "")} href="hacks.html">uwEnergyHacks</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page == "articles.html" ? "current-page" : "")} href="articles.html">Articles</a></li>
+					</x-3</div>
 
 				<button className="navbar-toggler col-12 p-0 m-0" data-toggle="collapse" data-target="#collapsibleNavbar">
 					<svg width="3vh" height="3vh" className="three-bars" viewBox="0 0 12 16" version="1.1" aria-hidden="true">
