@@ -50,8 +50,8 @@ button:hover {
 .email-input-light {
   border-radius: 10vh 0 0 10vh;
   border-style: none;
-  background-color: #4B4B4B;
-  color: white
+  background-color: #dddddd;
+  color: black;
 }
 
 .email-button-light {
