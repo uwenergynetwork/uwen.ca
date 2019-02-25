@@ -7,7 +7,7 @@ const e = React.createElement;
 const execs = [
 	{
 		name: "Cameron Martin",
-		position: "President",
+		position: "Co-president",
 		program: "Nanotechnology Engineering",
 		img: "cameron.png"
 	},
