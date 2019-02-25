@@ -14,7 +14,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var e = React.createElement;
 var execs = [{
 	name: "Cameron Martin",
-	position: "President",
+	position: "Co-president",
 	program: "Nanotechnology Engineering",
 	img: "cameron.png"
 }, {
