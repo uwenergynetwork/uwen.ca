@@ -1,0 +1,10 @@
+language: none
+
+env:
+  global:
+    #secure variable contains values for AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+    - secure: aYTLt8Zup8+iyedXl+oEnW98vsudDD4nuPzbJ293rnn/YkfCEeW7q+ettLn7UuMhU0Apk7F/iFpWhzefVMFVIB5NslRfZctntqp3KVyFjPkLN8DRggPnfAJi0LuPEvy/3CeY5vhYw/aXhWAMe1z9ATEL03iUEPciAo+4tT7dS6Xs+eja1daIFZbCZYrqw+X8n1u/5N8wV4YxYAnInIffUtVXloKL0Hy5ohCzSxexD5ZoibygpORKVgrOKQSfQSehTfOeFwy/vArEwkFntYgCk79+YWbIS6VhfwQTjM+g6+RrEG3P6Z9wbu+yiLB5rm7Gu2bR4DlaRv707TKLiUcieQ==
+    
+build:
+  on_success:
+    - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1"
