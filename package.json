@@ -19,9 +19,10 @@
   "homepage": "https://github.com/uwaterlooenergynetwork/uwaterlooenergynetwork.github.io#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2",
     "papaparse": "^4.6.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }

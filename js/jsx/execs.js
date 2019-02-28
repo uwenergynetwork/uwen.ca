@@ -24,7 +24,7 @@ const execs = [
 		img: "jamie.png"
 	},
 	{
-		name: "Emma Lozkins",
+		name: "Emma Lozhkin",
 		position: "VP Tech",
 		program: "Computer Engineering",
 		img: "emma.png"
