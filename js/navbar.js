@@ -48,7 +48,7 @@ var NavBar = function (_React$Component) {
 								{ className: "nav-item text-center" },
 								React.createElement(
 									"a",
-									{ className: "px-3 navbar-link " + (this.state.page.startsWith("index") || this.state.page == "" ? "current-page" : ""), href: "index.html" },
+									{ className: "px-3 navbar-link " + (this.state.page.startsWith("index") || this.state.page == "" ? "current-page" : ""), href: "index" },
 									"Home"
 								)
 							),
@@ -57,7 +57,7 @@ var NavBar = function (_React$Component) {
 								{ className: "nav-item text-center" },
 								React.createElement(
 									"a",
-									{ className: "px-3 navbar-link " + (this.state.page.startsWith("about") ? "current-page" : ""), href: "about.html" },
+									{ className: "px-3 navbar-link " + (this.state.page.startsWith("about") ? "current-page" : ""), href: "about" },
 									"About"
 								)
 							),
@@ -66,7 +66,7 @@ var NavBar = function (_React$Component) {
 								{ className: "nav-item text-center" },
 								React.createElement(
 									"a",
-									{ className: "px-3 navbar-link " + (this.state.page.startsWith("events") ? "current-page" : ""), href: "events.html" },
+									{ className: "px-3 navbar-link " + (this.state.page.startsWith("events") ? "current-page" : ""), href: "events" },
 									"Events"
 								)
 							),
@@ -75,7 +75,7 @@ var NavBar = function (_React$Component) {
 								{ className: "nav-item text-center" },
 								React.createElement(
 									"a",
-									{ className: "px-3 navbar-link " + (this.state.page.startsWith("hacks") ? "current-page" : ""), href: "hacks.html" },
+									{ className: "px-3 navbar-link " + (this.state.page.startsWith("hacks") ? "current-page" : ""), href: "hacks" },
 									"uwEnergyHacks"
 								)
 							),
@@ -84,7 +84,7 @@ var NavBar = function (_React$Component) {
 								{ className: "nav-item text-center" },
 								React.createElement(
 									"a",
-									{ className: "px-3 navbar-link " + (this.state.page.startsWith("articles") ? "current-page" : ""), href: "articles.html" },
+									{ className: "px-3 navbar-link " + (this.state.page.startsWith("articles") ? "current-page" : ""), href: "articles" },
 									"Articles"
 								)
 							)

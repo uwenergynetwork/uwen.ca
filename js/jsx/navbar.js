@@ -20,11 +20,11 @@ class NavBar extends React.Component {
 				<nav id="navbar-custom" className="col-xl-6 col-lg-7 col-md-9 mx-auto navbar navbar-expand-sm">
 				<div className="collapse navbar-collapse" id="collapsibleNavbar">
 					<ul className="col-12 d-flex justify-content-center navbar-nav">
-					<li className="nav-item text-center"><a className={"px-3 navbar-link " + ((this.state.page.startsWith("index") || this.state.page == "") ? "current-page" : "")} href="index.html">Home</a></li>
-					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("about") ? "current-page" : "")} href="about.html">About</a></li>
-					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("events") ? "current-page" : "")} href="events.html">Events</a></li>
-					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("hacks") ? "current-page" : "")} href="hacks.html">uwEnergyHacks</a></li>
-					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("articles") ? "current-page" : "")} href="articles.html">Articles</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + ((this.state.page.startsWith("index") || this.state.page == "") ? "current-page" : "")} href="index">Home</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("about") ? "current-page" : "")} href="about">About</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("events") ? "current-page" : "")} href="events">Events</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("hacks") ? "current-page" : "")} href="hacks">uwEnergyHacks</a></li>
+					<li className="nav-item text-center"><a className={"px-3 navbar-link " + (this.state.page.startsWith("articles") ? "current-page" : "")} href="articles">Articles</a></li>
 					</ul>
 				</div>
 
