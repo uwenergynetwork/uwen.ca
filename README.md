@@ -5,5 +5,6 @@ Followed the instructions here: https://reactjs.org/docs/add-react-to-a-website.
 
 All thats needed:
 
+
 Install npm
 Run: npx babel --watch js/jsx --out-dir js --presets react-app/prod
