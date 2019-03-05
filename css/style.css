@@ -141,7 +141,11 @@ video#bgvid {
 }
 
 .big-title{
-  font-size: 250%;
+  font-size: 500%;
+}
+
+.medium-title{
+  font-size: 300%;
 }
 
 #main-title {
