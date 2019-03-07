@@ -63,10 +63,12 @@
       <div class="col-12 mb-3">
         <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank"><img class="img-fluid social m-2"
             src="img/social/facebook.svg"></a>
-        <a href="#" target="_blank"><img class="img-fluid social m-2" src="img/social/twitter.svg"></a>
+        <a href="https://twitter.com/uwaterlooenergy" target="_blank"><img class="img-fluid social m-2"
+            src="img/social/twitter.svg"></a>
         <a href="https://www.linkedin.com/company/uw-energy-network/about/" target="_blank"><img class="img-fluid social m-2"
             src="img/social/linkedin.svg"></a>
-        <a href="mailto:uwenergynetwork@gmail.com" target="_blank"><img class="img-fluid social m-2" src="img/social/email.svg"></a>
+        <a href="mailto:uwenergynetwork@gmail.com" target="_blank"><img class="img-fluid social m-2"
+            src="img/social/email.svg"></a>
       </div>
     </div>
   </div>
