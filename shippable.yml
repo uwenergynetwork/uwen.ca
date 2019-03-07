@@ -8,3 +8,4 @@ env:
 build:
   on_success:
     - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1" --exclude "*.*" --content-type "text/html" --content-language "html"
+    - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1"
