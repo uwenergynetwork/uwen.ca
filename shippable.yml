@@ -7,5 +7,5 @@ env:
     
 build:
   on_success:
-    - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1" --exclude "*.*" --content-type "text/html" --content-language "html"
-    - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1" --include "*.*"
+    - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1"
+    - aws s3 cp --exclude "*.*" --content-type="text/html" -metadata-directive="REPLACE" --recursive "s3://uwen.ca"
