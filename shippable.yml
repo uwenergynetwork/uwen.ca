@@ -9,3 +9,7 @@ build:
   on_success:
     - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1"
     - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/index --bucket uwen.ca --key index --acl public-read
+    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/about --bucket uwen.ca --key about --acl public-read
+    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/events --bucket uwen.ca --key events --acl public-read
+    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/hacks --bucket uwen.ca --key hacks --acl public-read
+    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/articles --bucket uwen.ca --key articles --acl public-read
