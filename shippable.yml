@@ -8,4 +8,4 @@ env:
 build:
   on_success:
     - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1"
-    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source "s3://uwen.ca/index" --bucket "s3://uwen.ca" = --key "index" --acl public-read
+    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source "s3://uwen.ca/index" --bucket "s3://uwen.ca" --key "index" --acl public-read
