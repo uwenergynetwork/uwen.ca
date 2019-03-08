@@ -8,4 +8,4 @@ env:
 build:
   on_success:
     - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://uwen.ca" --region "us-east-1"
-    - s3cmd --recursive modify --acl-public --add-header='content-type':'application/json' --exclude '*.*' "s3://uwen.ca"
+    - aws s3cmd --recursive modify --acl-public --add-header='content-type':'application/json' --exclude '*.*' "s3://uwen.ca"
