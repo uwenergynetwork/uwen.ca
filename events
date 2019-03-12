@@ -33,7 +33,7 @@
 
   <div id="navbar"></div>
 
-  <div id="events" class="col-lg-8 mx-auto bg-light bg-page mt-5 p-5">
+  <div id="events" class="col-lg-8 mx-auto bg-light bg-page mt-5 pt-5 p-xl-5 p-lg-4">
 
   </div>
 
