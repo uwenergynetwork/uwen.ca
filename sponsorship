@@ -6,7 +6,7 @@
   <title>uwEnergyHacks Sponsorship</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
-  <meta name="theme-color" content="#4B4B4B"/>
+  <meta name="theme-color" content="#4B4B4B" />
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
     crossorigin="anonymous">
@@ -35,14 +35,17 @@
 
   <div class="col-lg-8 mx-auto bg-light bg-page mt-5 pt-5 p-xl-5 p-lg-4 h-100">
     <h1 id="subtitle">Meeting Confirmed 👍</h1>
-    <h3>Thanks Joe Smith, you are scheduled to meet with Jamie Pinheiro</h3>
+    <h3 id="thank-you-message">Thanks {invitee_full_name}, you are scheduled to meet with {assigned_to}</h3>
     <hr>
-    <h5 class="subheading">8:00am - 8:30am, Tuesday, March 12, 2019</h5>
-    <h5 class="subheading">Pacific Time - US & Canada</h5>
-    <a href="https://appear.in/uwenergyhacks"><h5 class="subheading text-primary">https://appear.in/uwenergyhacks</h5></a>
-    <h5 class="subheading pt-4">A calendar invitation has been sent to joesmith@gmail.com</h5>
+    <h5 id="time" class="subheading">{time}</h5>
+    <a href="https://appear.in/uwenergyhacks">
+      <h5 class="subheading text-primary">https://appear.in/uwenergyhacks</h5>
+    </a>
+    <h5 id="calendar-invite" class="subheading pt-4">A calendar invitation has been sent to {invitee_email}</h5>
     <hr>
-    <h5>Please feel free to explore our <a target="_blank" href="Sponsorship Package class="text-primary">Sponsorship Package</a> before the meeting.</h5>
+    <h5>Please feel free to explore our <a target="_blank" href="Sponsorship Package.pdf" class="text-primary">Sponsorship
+        Package</a> before the meeting.</h5>
+    <br>
     <h5>Looking forward to chatting</h5>
     <h5>- UWEN Team</h5>
   </div>
@@ -55,6 +58,7 @@
   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
   crossorigin="anonymous"></script>
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
 
 <script src="js/react.production.min.js"></script>
 <script src="js/react-dom.production.min.js"></script>
@@ -62,5 +66,16 @@
 
 <!-- Load our React component. -->
 <script src="js/navbar.js"></script>
+
+<script>
+  //https://uwen.ca/sponsorship?assigned_to=Jamie%20Pinheiro&event_type_uuid=EGFGYMVW5RJOJ7VA&event_type_name=uwEnergyHacks%20Partnership&event_start_time=2019-03-13T08%3A00%3A00-07%3A00&event_end_time=2019-03-13T08%3A30%3A00-07%3A00&invitee_uuid=DCB4PFS2X6T7DCEF&invitee_full_name=Test&invitee_email=test%40gmail.com
+  var url_string = window.location.href
+  var url = new URL(url_string);
+  $("#thank-you-message")[0].innerHTML = `Thanks ${url.searchParams.get("invitee_full_name")}, you are scheduled to meet with ${url.searchParams.get("assigned_to")}`;
+  var startDate = new Date(url.searchParams.get("event_start_time"));
+  var endDate = new Date(url.searchParams.get("event_end_time"));
+  $("#time")[0].innerHTML = `${moment(startDate).format('h:mma')} - ${moment(endDate).format('h:mma')}, ${moment(endDate).format('dddd, LL')}`;
+  $("#calendar-invite")[0].innerHTML = `A calendar invitation has been sent to ${url.searchParams.get("invitee_email")}`
+</script>
 
 </html>
