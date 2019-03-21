@@ -65,7 +65,7 @@
           <a href="#apply" class="button-jump"><button class="apply-button button col-6 p-2">Apply Now</button></a>
         </div>
         <div class="col-xl-4 d-none d-xl-block m-3">
-          <img class="col-12 img-responsive" src="img/hacks/gears.svg"/>
+          <img class="col-12 img-responsive" src="img/hacks/robot.svg"/>
         </div>
       </div>
 
@@ -73,7 +73,7 @@
 
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
         <div class="col-xl-4 d-none d-xl-block m-3">
-          <img class="col-12 img-responsive" src="img/hacks/windmill.svg.png"/>
+          <img class="col-12 img-responsive" src="img/hacks/windmill.svg"/>
         </div>
         <div class="col-xl-7 col-lg-12 col-md-12 my-auto p-0">
           <h2 class="section-title">Open To Everyone 👨‍👩‍👧‍👦</h2>
@@ -91,7 +91,7 @@
           <p class="description-text">3) At the end of the hacking period, you will get a chance to demo and pitch what you have created and be judged. Prizes for teams that create the best solutions will then be handed out.</p>
         </div>
         <div class="col-xl-4 d-none d-xl-block m-3 my-auto">
-          <img class="col-12 img-responsive" src="img/hacks/teamwork.png"/>
+          <img class="col-12 img-responsive" src="img/hacks/present.svg"/>
         </div>
       </div>
 
@@ -100,9 +100,8 @@
       <br>
 
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
-        <div class="col-12 my-auto p-0">
+        <div class="col-xl-7 col-lg-12 col-md-12 my-auto p-0">
           <h2 class="section-title">FAQ 🤔</h2>
-
           <h5>Is there any cost to take part?</h5>
           <p>None! This event is completely free!</p>
 
@@ -114,7 +113,9 @@
 
           <h5>Who can apply?</h5>
           <p>Any university student is eligible to attend!</p>
-
+        </div>
+        <div class="col-xl-4 d-none d-xl-block m-3 my-auto">
+          <img class="col-12 img-responsive" src="img/hacks/question.svg"/>
         </div>
       </div>
 
@@ -123,21 +124,41 @@
       <br>
 
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
-        <div class="col-12 my-auto p-0">
-          <h2 class="section-title">Our Partners 🤝</h2>
-          <h4>Full list of sponsors coming soon!</h4>
-          <p class="description-text">Interested in helping make this event a success and promoting your business? Reach out to us!</p>
-          <a href="mailto:uwenergynetwork@gmail.com" class="text-center mx-auto"><button class="apply-button button col-6 col-xl-3   p-2">Contact Us</button></a>
+        <div class="col-12 my-auto p-0 row">
+          <h2 class="section-title col-12">Our Sponsors 🤝</h2>
+          <div class="col-xl-4 p-3 my-auto">
+            <a href="https://balsamiq.com/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/sponsors/balsamiq.svg"/></a>
+          </div>
         </div>
       </div>
 
       <br>
       <hr>
+      <br>
+
+      <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
+        <div class="col-12 my-auto p-0 row">
+          <h2 class="section-title col-12">Our Partners 🙌</h2>
+          <div class="col-xl-4 p-3 my-auto">
+            <a href="https://www.instagram.com/uwsustainable/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/uwsustainability.png"/></a>
+          </div>
+          <div class="col-xl-4 p-3 my-auto">
+            <a href="https://www.foundersbeta.com/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/foundersbeta.png"/></a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <hr>
+      <br>
 
       <div id="apply" class="row col-12 p-0 d-flex justify-content-between my-4 mx-0">
         <div class="col-12 my-auto p-0">
           <h2 class="section-title">Apply 💻</h2>
-          <h3 class="text-center">Applications open on <strong>APRIL 15 2019</strong></h3>
+          <div class="col-xl-4 d-none d-xl-block mx-auto p-0">
+            <img class="col-12 img-responsive" src="img/hacks/forest.svg"/>
+          </div>
+          <h3 class="text-center mt-3">Applications open on <strong>APRIL 15 2019</strong></h3>
           <p class="description-text text-center">Subscribe and Follow To Get Notified!</p>
           <form class="mx-auto row col-xl-6 col-lg-8 col-md-10 col-sm-12 p-0" action="https://facebook.us16.list-manage.com/subscribe/post?u=dfd3241e2fbaa3f7ce6c19b0f&amp;id=d4fd77640c"
             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
