@@ -46,9 +46,9 @@
     <div class="col-12 text-center bottom">
       <h3 class="subtitle">Stay up to date</h3>
       <div class="col-12 text-center mt-3 p-0">
-        <div class="input-group mb-3 col-xl-5 col-lg-7 col-md-10 col-sm-12 p-0 mx-auto">
+        <div id="email" class="input-group mb-3 col-xl-5 col-lg-7 col-md-10 col-sm-12 p-0 mx-auto text-white">
           <form class="mx-auto row col-12" action="https://facebook.us16.list-manage.com/subscribe/post?u=dfd3241e2fbaa3f7ce6c19b0f&amp;id=d4fd77640c"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
             novalidate>
             <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="required email col-9 email-input"
               placeholder="student@email.com">
@@ -90,5 +90,7 @@
 
 <!-- Load our React component. -->
 <script src="js/navbar.js"></script>
+
+<script src="js/email.js"></script>
 
 </html>

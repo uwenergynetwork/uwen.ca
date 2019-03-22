@@ -35,11 +35,11 @@
 
   <div class="col-lg-8 mx-auto bg-light bg-page mt-5 pt-5 p-xl-5 p-lg-4">
     <div class="col-12 m-0 my-4 text-center">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
     </div>
     <h1 id="subtitle" class="d-none d-md-block text-center big-title">uwEnergyHacks</h1>
     <h1 id="subtitle" class="mb-3 d-md-none text-center medium-title">uwEnergyHacks</h1>
@@ -47,11 +47,11 @@
     <p class="subheading text-center">JUNE 1-2, 2019</p>
     <h4 class="text-center">Energy Related Problems. Forward Thinking. Powerful Solutions.</h4>
     <div class="col-12 m-0 my-4 text-center">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
-      <img src="img/hacks/Lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
+      <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
     </div>
     <br>
     <hr>
@@ -163,8 +163,9 @@
           </div>
           <h3 class="text-center mt-3">Applications open on <strong>APRIL 15 2019</strong></h3>
           <p class="description-text text-center">Subscribe and Follow To Get Notified!</p>
-          <form class="mx-auto row col-xl-6 col-lg-8 col-md-10 col-sm-12 p-0" action="https://facebook.us16.list-manage.com/subscribe/post?u=dfd3241e2fbaa3f7ce6c19b0f&amp;id=d4fd77640c"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+          <div id="email" class="col-12 p-0 mx-auto text-black text-center">
+            <form class="mx-auto row col-xl-6 col-lg-8 col-md-10 col-sm-12 p-0" action="https://uwen.us16.list-manage.com/subscribe/post?u=dfd3241e2fbaa3f7ce6c19b0f&amp;id=8221eb0b94"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
             novalidate>
             <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="required email col-9 email-input-light"
               placeholder="student@email.com">
@@ -173,6 +174,8 @@
                 name="subscribe" type="button" id="mc-embedded-subscribe">Subscribe</button>
             </div>
           </form>
+          </div>
+          
           <div class="col-12 my-3 d-flex justify-content-center">
             <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank"><img class="img-fluid social m-2"
                 src="img/social/facebook.svg"></a>
@@ -205,5 +208,6 @@
 
 <script src="js/lightbulbs.js"></script>
 <script src="js/page.js"></script>
+<script src="js/email.js"></script>
 
 </html>
