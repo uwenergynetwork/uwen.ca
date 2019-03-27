@@ -30,6 +30,8 @@
 
 </head>
 
+<a id="mlh-trust-badge" class="d-none d-xl-block" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=yellow" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-yellow.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+
 <body id="about-page">
 
   <div id="navbar"></div>
@@ -46,7 +48,7 @@
     <h1 id="subtitle" class="mb-3 d-md-none text-center medium-title">uwEnergyHacks</h1>
     <p class="subheading mb-0 text-center">UNIVERSITY OF WATERLOO</p>
     <p class="subheading text-center">JUNE 1-2, 2019</p>
-    <h4 class="text-center">Energy Related Problems. Forward Thinking. Powerful Solutions.</h4>
+    <h4 class="text-center">Sustainability Problems. Forward Thinking. Powerful Solutions.</h4>
     <div class="col-12 m-0 my-4 text-center">
       <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
       <img src="img/hacks/lightbulb.png" class="col-sm-1 col-2 img-responsive light-bulb" alt="">
@@ -140,13 +142,16 @@
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
         <div class="col-12 my-auto p-0 row">
           <h2 class="section-title col-12">Partnering with</h2>
-          <div class="col-xl-6 col-lg-8 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+            <a href="https://mlh.io/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/mlh.png"/></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
             <a href="https://uwblueprint.org/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/blueprint.png"/></a>
           </div>
-          <div class="col-xl-6 col-lg-8 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
             <a href="https://www.instagram.com/uwsustainable/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/uwsustainability.png"/></a>
           </div>
-          <div class="col-xl-6 col-lg-8 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
             <a href="https://www.foundersbeta.com/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/foundersbeta.png"/></a>
           </div>
         </div>
