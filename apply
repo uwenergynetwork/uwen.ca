@@ -53,7 +53,12 @@
         </div>
 
         <div class="form-group">
-          <label for="email">Email address</label>
+          <label for="phone-number">Phone Number</label>
+          <input type="tel" class="form-control" id="phone-number" placeholder="123-456-789">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
           <input type="text" class="form-control" id="email" placeholder="student@email.com">
         </div>
 
@@ -63,8 +68,8 @@
         </div>
 
         <div class="form-group">
-          <label for="phone-number">Phone Number</label>
-          <input type="tel" class="form-control" id="phone-number" placeholder="123-456-789">
+          <label for="birthday">Birthdate</label>
+          <input type="date" class="form-control" id="birthday" placeholder="Jan 1 1998">
         </div>
 
         <div class="form-group">
@@ -73,6 +78,20 @@
             <option default>Select an option</option>
             <option>Male</option>
             <option>Female</option>
+            <option>Other</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="race">What is your race/ethnicity?</label>
+          <select class="form-control" id="race">
+            <option default>Select an option</option>
+            <option>American Indian or Alaskan Native</option>
+            <option>Asian / Pacific Islander</option>
+            <option>Black or African American</option>
+            <option>Hispanic</option>
+            <option>White / Caucasian</option>
             <option>Other</option>
             <option>Prefer not to say</option>
           </select>
@@ -164,6 +183,16 @@
             <option default>Select an option</option>
             <option>Yes</option>
             <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="skill">How would you rate your coding skills? (We are looking for all levels of skill for this event!)</label>
+          <select class="form-control" id="skill">
+            <option default>Select an option</option>
+            <option>New to coding</option>
+            <option>Somewhat experienced</option>
+            <option>Pro coder</option>
           </select>
         </div>
 
