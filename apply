@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Apply</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+  <meta name="theme-color" content="#4B4B4B" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.ico?" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Open+Sans:800" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133695878-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-133695878-1');
+  </script>
+
+</head>
+
+<body id="about-page">
+
+  <div id="navbar"></div>
+
+  <div class="col-lg-8 mx-auto bg-light bg-page mt-5 pt-5 p-xl-5 p-lg-4">
+    <form>
+      <h1 id="subtitle" class="mb-2">Apply</h1>
+
+      <div id="form-pt-1">
+        <h3 class="section-title text-dark">About You 🔨</h3>
+        <p>We need a little information about you. uwEnergyHacks evaluates our applications blind to name and gender.
+        </p>
+
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" class="form-control" id="first-name" placeholder="Michael">
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" class="form-control" id="last-name" placeholder="Scott">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="text" class="form-control" id="email" placeholder="student@email.com">
+        </div>
+
+        <div class="form-group">
+          <label for="school">School</label>
+          <input type="text" class="form-control" id="school" placeholder="uWaterloo">
+        </div>
+
+        <div class="form-group">
+          <label for="phone-number">Phone Number</label>
+          <input type="tel" class="form-control" id="phone-number" placeholder="123-456-789">
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select class="form-control" id="gender">
+            <option default>Select an option</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="major">Major</label>
+          <input type="text" class="form-control" id="major" placeholder="Paper sales">
+        </div>
+
+        <div class="form-group">
+          <label for="level-of-study">Current Level of Study</label>
+          <select class="form-control" id="level-of-study">
+            <option default>Select an option</option>
+            <option>Highschool</option>
+            <option>Year 1</option>
+            <option>Year 2</option>
+            <option>Year 3</option>
+            <option>Year 4</option>
+            <option>Grad school</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="grad-year">Graduation year</label>
+          <input type="number" class="form-control" id="grad-year" placeholder="2022">
+        </div>
+
+        <div class="form-group col-12 text-center my-4 pb-3">
+          <button type="button" id="next-button-1" class="apply-button button col-lg-4 col-sm-5 col-xs-6 p-2">Next</button>
+        </div>
+      </div>
+
+      <div id="form-pt-2" class="d-none">
+        <h3 class="section-title text-dark">Logstics 🚚</h3>
+        <p>We need a little more information about you.</p>
+
+        <div class="form-group">
+          <label for="tshirt">T-shirt Size</label>
+          <select class="form-control" id="tshirt">
+            <option default>Select an option</option>
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="diet">Dietary Restrictions</label>
+          <select class="form-control" id="diet">
+            <option>None</option>
+            <option>Gluten Free</option>
+            <option>Vegan</option>
+            <option>Vegetarian</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="special-needs">Special Needs / Accommodations</label>
+          <input type="text" class="form-control" id="special-needs"
+            placeholder="List any special needs or requests here">
+        </div>
+
+        <div class="form-group">
+          <label for="local">Travelling from outside Waterloo?</label>
+          <select class="form-control" id="local">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+
+        <div class="form-group col-12 text-center mt-4">
+          <button type="button" id="next-button-2" class="apply-button button col-lg-4 col-sm-5 col-xs-3 p-2">Next</button>
+        </div>
+        <div class="form-group col-12 text-center mt-0">
+          <button type="button" id="back-button-2" class="apply-button button col-lg-2 col-sm-4 col-xs-2 p-2" style="background-color: rgb(192, 192, 192)">Back</button>
+        </div>
+      </div>
+
+      <div id="form-pt-3" class="d-none">
+        <h3 class="section-title text-dark">Hackathon ⚙️</h3>
+        <p>We want to know why you want to attend uwEnergyHacks</p>
+
+        <div class="form-group">
+          <label for="first-hackathon">Is this your first hackathon?</label>
+          <select class="form-control" id="first-hackathon">
+            <option default>Select an option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="why">What about environmental initiatives/sustainability interests you the most? (in less than 140
+            characters)</label>
+          <textarea class="form-control" id="why" rows="2"></textarea>
+        </div>
+
+        <div class="form-check pl-3">
+          <input class="form-check-input" type="checkbox" value="" id="codeofconduct">
+          <label class="form-check-label" for="codeofconduct">
+            I have read and agree to the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of
+              Conduct</a>
+          </label>
+        </div>
+
+        <div class="form-check pl-3">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            I authorize you to share my application/registration information for event administration, ranking, MLH
+            administration, pre- and post-event informational e-mails, and occasional messages about hackathons in-line
+            with the <a href="https://mlh.io/privacy">MLH Privacy Policy</a>. I further I agree to the terms of both the
+            <a href="https://github.com/MLH/mlh-policies/tree/master/prize-terms-and-conditions">MLH Contest Terms and
+              Conditions</a> and the <a href="https://mlh.io/privacy">MLH Privacy Policy</a>.
+          </label>
+        </div>
+
+        <div class="form-group col-12 text-center mt-4">
+          <button type="button" id="submit-button-2" class="apply-button button col-lg-4 col-sm-5 col-xs-3 p-2">Submit Application</button>
+        </div>
+
+        <div class="form-group col-12 text-center mt-0">
+          <button type="button" id="back-button-3" class="apply-button button col-lg-2 col-sm-4 col-xs-2 p-2" style="background-color: rgb(192, 192, 192)">Back</button>
+        </div>
+
+      </div>
+    </form>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+  integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+  integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="js/react.production.min.js"></script>
+<script src="js/react-dom.production.min.js"></script>
+<script src="js/papaparse.min.js"></script>
+
+<!-- Load our React component. -->
+<script src="js/navbar.js"></script>
+
+<script>
+  $("#next-button-1").click(function () {
+    $("#form-pt-1").addClass("d-none");
+    $("#form-pt-2").removeClass("d-none");
+  });
+
+  $("#next-button-2").click(function () {
+    $("#form-pt-2").addClass("d-none");
+    $("#form-pt-3").removeClass("d-none");
+  });
+
+  $("#back-button-2").click(function () {
+    $("#form-pt-1").removeClass("d-none");
+    $("#form-pt-2").addClass("d-none");
+  });
+
+  $("#back-button-3").click(function () {
+    $("#form-pt-2").removeClass("d-none");
+    $("#form-pt-3").addClass("d-none");
+  });
+</script>
+
+</html>
