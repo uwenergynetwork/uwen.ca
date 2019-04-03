@@ -62,6 +62,9 @@
     <div>
       <br>
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-xl-none m-3">
+          <img class="col-12 img-responsive" src="img/hacks/robot.svg"/>
+        </div>
         <div class="col-xl-7 col-lg-12 col-md-12 my-auto p-0">
           <h2 class="section-title">An Energy First Hackathon ⚡</h2>
           <p class="description-text">uwEnergyHacks is different than your regular, run-of-the-mill hackathon. This hackathon is focused solely around a series of energy-related problems that exist in our world today, how will you solve them?</p>
@@ -75,7 +78,7 @@
       <br>
 
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
-        <div class="col-xl-4 d-none d-xl-block m-3">
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 m-3">
           <img class="col-12 img-responsive" src="img/hacks/windmill.svg"/>
         </div>
         <div class="col-xl-7 col-lg-12 col-md-12 my-auto p-0">
@@ -87,6 +90,9 @@
       <br>
 
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-xl-none m-3">
+          <img class="col-12 img-responsive" src="img/hacks/present.svg"/>
+        </div>
         <div class="col-xl-7 col-lg-12 col-md-12 my-auto p-0">
           <h2 class="section-title">How It Works 📜</h2>
           <p class="description-text">1) Hackers will create up to 4 person teams ideally with a wide variety of talent.</p>
@@ -142,25 +148,25 @@
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
         <div class="col-12 my-auto p-0 row">
           <h2 class="section-title col-12">Partnering with</h2>
-          <div class="col-xl-6 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-5 col-lg-9 col-sm-10 col-xs-10 p-3 my-auto mx-auto">
             <a href="https://mlh.io/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/mlh.png"/></a>
           </div>
-          <div class="col-xl-6 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-5 col-lg-9 col-sm-10 col-xs-10 p-3 my-auto mx-auto">
             <a href="https://uwblueprint.org/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/blueprint.png"/></a>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6p-3 my-auto mx-auto">
             <a href="http://impactalliance.ca/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/impactalliance.png"/></a>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6p-3 my-auto mx-auto">
             <a href="https://www.instagram.com/uwsustainable/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/uwsustainability.png"/></a>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6 p-3 my-auto mx-auto">
             <a href="https://www.facebook.com/UWCoffeeNCode/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/coffeeandcode.png"/></a>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6 p-3 my-auto mx-auto">
             <a href="https://starterhacks.ca/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/starterhacks.png"/></a>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6 p-3 my-auto mx-auto">
             <a href="https://www.foundersbeta.com/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/foundersbeta.png"/></a>
           </div>
         </div>
