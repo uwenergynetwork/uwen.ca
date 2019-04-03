@@ -34,7 +34,8 @@
   <div id="navbar"></div>
 
   <div class="col-lg-8 mx-auto bg-light bg-page mt-5 pt-5 p-xl-5 p-lg-4">
-    <form>
+    <form action="https://uwen.us16.list-manage.com/subscribe/post?u=dfd3241e2fbaa3f7ce6c19b0f&amp;id=77daa675aa"
+    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
       <h1 id="subtitle" class="mb-2">Apply</h1>
 
       <div id="form-pt-1">
@@ -43,81 +44,78 @@
         </p>
 
         <div class="form-group">
-          <label for="first-name">First Name</label>
-          <input type="text" class="form-control" id="first-name" placeholder="Michael">
+          <label for="mce-FIRSTNAME">First Name</label>
+          <input type="text" name="FIRSTNAME" class="form-control required" id="mce-FIRSTNAME" placeholder="Michael">
         </div>
 
         <div class="form-group">
-          <label for="last-name">Last Name</label>
-          <input type="text" class="form-control" id="last-name" placeholder="Scott">
+          <label for="mce-LASTNAME">Last Name</label>
+          <input type="text" name="LASTNAME" class="form-control required" id="mce-LASTNAME" placeholder="Scott">
         </div>
 
         <div class="form-group">
-          <label for="phone-number">Phone Number</label>
-          <input type="tel" class="form-control" id="phone-number" placeholder="123-456-789">
+          <label for="mce-PHONENUM">Phone Number</label>
+          <input type="tel" name="PHONENUM" class="form-control required" value="" id="mce-PHONENUM" placeholder="123-456-789">
         </div>
 
         <div class="form-group">
-          <label for="email">Email</label>
-          <input type="text" class="form-control" id="email" placeholder="student@email.com">
+          <label for="mce-EMAIL">Email</label>
+          <input type="text" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="student@email.com">
         </div>
 
         <div class="form-group">
-          <label for="school">School</label>
-          <input type="text" class="form-control" id="school" placeholder="uWaterloo">
+          <label for="mce-SCHOOL">School</label>
+          <input type="text" name="SCHOOL" class="form-control required" id="mce-SCHOOL" placeholder="uWaterloo">
         </div>
 
         <div class="form-group">
-          <label for="birthday">Birthdate</label>
-          <input type="date" class="form-control" id="birthday" placeholder="Jan 1 1998">
+          <label for="mce-BIRTHDATE">Birthdate</label>
+          <input type="date" name="BIRTHDATE" class="form-control required" id="mce-BIRTHDATE" placeholder="Jan 1 1998">
         </div>
 
         <div class="form-group">
-          <label for="gender">Gender</label>
-          <select class="form-control" id="gender">
-            <option default>Select an option</option>
-            <option>Male</option>
-            <option>Female</option>
-            <option>Other</option>
-            <option>Prefer not to say</option>
+          <label for="mce-GENDER">Gender</label>
+          <select class="form-control" name="GENDER" id="mce-GENDER">
+            <option value="" default>Select an option</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="Prefer not to say">Prefer not to say</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label for="race">What is your race/ethnicity?</label>
-          <select class="form-control" id="race">
-            <option default>Select an option</option>
-            <option>American Indian or Alaskan Native</option>
-            <option>Asian / Pacific Islander</option>
-            <option>Black or African American</option>
-            <option>Hispanic</option>
-            <option>White / Caucasian</option>
-            <option>Other</option>
-            <option>Prefer not to say</option>
+          <label for="mce-RACE">Race/Ethnicity</label>
+          <select name="RACE" class="form-control required" id="mce-RACE">
+            <option value="" default>Select an option</option>
+            <option value="American Indian or Alaskan Native">American Indian or Alaskan Native</option>
+            <option value="Asian / Pacific Islander">Asian / Pacific Islander</option>
+            <option value="Black or African American">Black or African American</option>
+            <option value="Hispanic">Hispanic</option>
+            <option value="White / Caucasian">White / Caucasian</option>
+            <option value="Other">Other</option>
+            <option value="Prefer not to say">Prefer not to say</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label for="major">Major</label>
-          <input type="text" class="form-control" id="major" placeholder="Paper sales">
+          <label for="mce-MAJOR">Program/Major</label>
+          <input type="text" name="MAJOR" class="form-control required" id="mce-MAJOR" placeholder="Paper sales">
         </div>
 
         <div class="form-group">
-          <label for="level-of-study">Current Level of Study</label>
-          <select class="form-control" id="level-of-study">
-            <option default>Select an option</option>
-            <option>Highschool</option>
-            <option>Year 1</option>
-            <option>Year 2</option>
-            <option>Year 3</option>
-            <option>Year 4</option>
-            <option>Grad school</option>
+          <label for="mce-LEVELSTUDY">Current Level of Study</label>
+          <select name="LEVELSTUDY" class="form-control required" id="mce-LEVELSTUDY">
+            <option value="" default>Select an option</option>
+            <option value="Secondary School">Secondary School</option>
+            <option value="Undergraduate Program">Undergraduate Program</option>
+            <option value="Masters Program">Masters Program</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label for="grad-year">Graduation year</label>
-          <input type="number" class="form-control" id="grad-year" placeholder="2022">
+          <label for="mce-GRAD">Graduation Year</label>
+          <input type="number" name="GRAD" class="form-control required" id="mce-GRAD" placeholder="2022">
         </div>
 
         <div class="form-group col-12 text-center my-4 pb-3">
@@ -130,38 +128,38 @@
         <p>We need a little more information about you.</p>
 
         <div class="form-group">
-          <label for="tshirt">T-shirt Size</label>
-          <select class="form-control" id="tshirt">
-            <option default>Select an option</option>
-            <option>XS</option>
-            <option>S</option>
-            <option>M</option>
-            <option>L</option>
-            <option>XL</option>
+          <label for="mce-SHIRT">T-shirt Size</label>
+          <select name="SHIRT" class="form-control required" id="mce-SHIRT">
+            <option value="" default>Select an option</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option default value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label for="diet">Dietary Restrictions</label>
-          <select class="form-control" id="diet">
-            <option>None</option>
-            <option>Gluten Free</option>
-            <option>Vegan</option>
-            <option>Vegetarian</option>
+          <label for="mce-DIETARY">Dietary Restrictions</label>
+          <select name="DIETARY" class="form-control required" id="mce-DIETARY">
+            <option value="None">None</option>
+            <option value="Gluten Free">Gluten Free</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Vegetarian">Vegetarian</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label for="special-needs">Special Needs / Accommodations</label>
-          <input type="text" class="form-control" id="special-needs"
+          <label for="mce-SPECIAL">Special Needs/Accommodations</label>
+          <input type="text" name="SPECIAL" class="form-control" id="mce-SPECIAL"
             placeholder="List any special needs or requests here">
         </div>
 
         <div class="form-group">
-          <label for="local">Travelling from outside Waterloo?</label>
-          <select class="form-control" id="local">
-            <option>No</option>
-            <option>Yes</option>
+          <label for="mce-TRAVELLING">Travelling from outside Waterloo?</label>
+          <select name="TRAVELLING" class="form-control required" id="mce-TRAVELLING">
+            <option value="No">No</option>
+            <option value="Yes">Yes</option>
           </select>
         </div>
 
@@ -178,17 +176,22 @@
         <p>We want to know why you want to attend uwEnergyHacks</p>
 
         <div class="form-group">
-          <label for="first-hackathon">Is this your first hackathon?</label>
-          <select class="form-control" id="first-hackathon">
-            <option default>Select an option</option>
-            <option>Yes</option>
-            <option>No</option>
+          <label for="mce-FIRSTHACK">Is this your first hackathon?</label>
+          <select name="FIRSTHACK" class="form-control required" id="mce-FIRSTHACK">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label for="skill">How would you rate your coding skills? (We are looking for all levels of skill for this event!)</label>
-          <select class="form-control" id="skill">
+          <label for="mce-HACKS">If no, which other(s) did you attend</label>
+          <input type="text" name="HACKS" class="form-control" id="mce-HACKS"
+            placeholder="HackScranton 2005">
+        </div>
+
+        <div class="form-group">
+          <label for="SKILL">How would you rate your coding skills? (We are looking for all levels of skill for this event!)</label>
+          <select name="SKILL" class="form-control required" id="mce-SKILL">
             <option default>Select an option</option>
             <option>New to coding</option>
             <option>Somewhat experienced</option>
@@ -197,9 +200,9 @@
         </div>
 
         <div class="form-group">
-          <label for="why">What about environmental initiatives/sustainability interests you the most? (in less than 140
-            characters)</label>
-          <textarea class="form-control" id="why" rows="2"></textarea>
+          <label for="mce-ENVIRO">What about energy initiatives/sustainability interests you the most? (in less than 100
+            words)</label>
+          <textarea name="ENVIRO" class="form-control required" id="mce-ENVIRO" rows="2"></textarea>
         </div>
 
         <div class="form-check pl-3">
@@ -222,7 +225,7 @@
         </div>
 
         <div class="form-group col-12 text-center mt-4">
-          <button type="button" id="submit-button-2" class="apply-button button col-lg-4 col-sm-5 col-xs-3 p-2">Submit Application</button>
+          <button type="submit" id="mc-embedded-subscribe" value="Subscribe" name="subscribe" class="apply-button button col-lg-4 col-sm-5 col-xs-3 p-2">Submit Application</button>
         </div>
 
         <div class="form-group col-12 text-center mt-0">
