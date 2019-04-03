@@ -142,10 +142,10 @@
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
         <div class="col-12 my-auto p-0 row">
           <h2 class="section-title col-12">Partnering with</h2>
-          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-6 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
             <a href="https://mlh.io/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/mlh.png"/></a>
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+          <div class="col-xl-6 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
             <a href="https://uwblueprint.org/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/blueprint.png"/></a>
           </div>
           <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
@@ -153,6 +153,12 @@
           </div>
           <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
             <a href="https://www.instagram.com/uwsustainable/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/uwsustainability.png"/></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+            <a href="https://www.facebook.com/UWCoffeeNCode/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/coffeeandcode.png"/></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
+            <a href="https://starterhacks.ca/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/starterhacks.png"/></a>
           </div>
           <div class="col-xl-4 col-lg-6 col-sm-10 p-3 my-auto mx-auto">
             <a href="https://www.foundersbeta.com/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/foundersbeta.png"/></a>
@@ -170,7 +176,7 @@
           <div class="col-xl-4 d-none d-xl-block mx-auto p-0">
             <img class="col-12 img-responsive" src="img/hacks/forest.svg"/>
           </div>
-          <h3 class="text-center mt-3">Applications open on <strong>APRIL 15 2019</strong></h3>
+          <h3 class="text-center mt-3">Applications open on <strong>APRIL 8 2019</strong></h3>
           <p class="description-text text-center">Subscribe and Follow To Get Notified!</p>
           <div id="email" class="col-12 p-0 mx-auto text-black text-center">
             <form class="mx-auto row col-xl-6 col-lg-8 col-md-10 col-sm-12 p-0" action="https://uwen.us16.list-manage.com/subscribe/post?u=dfd3241e2fbaa3f7ce6c19b0f&amp;id=8221eb0b94"
