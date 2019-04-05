@@ -40,51 +40,57 @@
 
       <div id="form-pt-1">
         <h3 class="section-title text-dark">About You 🔨</h3>
-        <p>We need a little information about you. uwEnergyHacks evaluates our applications blind to name and gender.
-        </p>
+        <p>We need a little information about you. uwEnergyHacks evaluates our applications blind to name and gender.</p>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-FIRSTNAME">First Name</label>
           <input type="text" name="FIRSTNAME" class="form-control required" id="mce-FIRSTNAME" placeholder="Michael">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-LASTNAME">Last Name</label>
           <input type="text" name="LASTNAME" class="form-control required" id="mce-LASTNAME" placeholder="Scott">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-PHONENUM">Phone Number</label>
           <input type="tel" name="PHONENUM" class="form-control required" value="" id="mce-PHONENUM" placeholder="123-456-789">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-EMAIL">Email</label>
           <input type="text" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="student@email.com">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-SCHOOL">School</label>
           <input type="text" name="SCHOOL" class="form-control required" id="mce-SCHOOL" placeholder="uWaterloo">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-BIRTHDATE">Birthdate</label>
-          <input type="date" name="BIRTHDATE" class="form-control required" id="mce-BIRTHDATE" placeholder="Jan 1 1998">
+          <input type="date" name="BIRTHDATE" class="form-control required" id="mce-BIRTHDATE">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-GENDER">Gender</label>
-          <select class="form-control" name="GENDER" id="mce-GENDER">
+          <select class="form-control required" name="GENDER" id="mce-GENDER">
             <option value="" default>Select an option</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="Other">Other</option>
             <option value="Prefer not to say">Prefer not to say</option>
           </select>
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-RACE">Race/Ethnicity</label>
           <select name="RACE" class="form-control required" id="mce-RACE">
             <option value="" default>Select an option</option>
@@ -96,14 +102,16 @@
             <option value="Other">Other</option>
             <option value="Prefer not to say">Prefer not to say</option>
           </select>
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-MAJOR">Program/Major</label>
           <input type="text" name="MAJOR" class="form-control required" id="mce-MAJOR" placeholder="Paper sales">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-LEVELSTUDY">Current Level of Study</label>
           <select name="LEVELSTUDY" class="form-control required" id="mce-LEVELSTUDY">
             <option value="" default>Select an option</option>
@@ -111,11 +119,13 @@
             <option value="Undergraduate Program">Undergraduate Program</option>
             <option value="Masters Program">Masters Program</option>
           </select>
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-GRAD">Graduation Year</label>
           <input type="number" name="GRAD" class="form-control required" id="mce-GRAD" placeholder="2022">
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
         <div class="form-group col-12 text-center my-4 pb-3">
@@ -133,10 +143,11 @@
             <option value="" default>Select an option</option>
             <option value="XS">XS</option>
             <option value="S">S</option>
-            <option default value="M">M</option>
+            <option value="M">M</option>
             <option value="L">L</option>
             <option value="XL">XL</option>
           </select>
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
         <div class="form-group">
@@ -167,7 +178,7 @@
           <button type="button" id="next-button-2" class="apply-button button col-lg-4 col-sm-5 col-xs-3 p-2">Next</button>
         </div>
         <div class="form-group col-12 text-center mt-0">
-          <button type="button" id="back-button-2" class="apply-button button col-lg-2 col-sm-4 col-xs-2 p-2" style="background-color: rgb(192, 192, 192)">Back</button>
+          <button type="button" id="back-button-2" class="apply-button button col-lg-2 col-sm-4 col-xs-2 p-2 mb-5" style="background-color: rgb(192, 192, 192)">Back</button>
         </div>
       </div>
 
@@ -189,33 +200,35 @@
             placeholder="HackScranton 2005">
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="SKILL">How would you rate your coding skills? (We are looking for all levels of skill for this event!)</label>
           <select name="SKILL" class="form-control required" id="mce-SKILL">
-            <option default>Select an option</option>
-            <option>New to coding</option>
-            <option>Somewhat experienced</option>
-            <option>Pro coder</option>
+            <option value="" default>Select an option</option>
+            <option value="New to coding">New to coding</option>
+            <option value="Somewhat experienced">Somewhat experienced</option>
+            <option value="Pro coder">Pro coder</option>
           </select>
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-danger">
           <label for="mce-ENVIRO">What about energy initiatives/sustainability interests you the most? (in less than 100
             words)</label>
-          <textarea name="ENVIRO" class="form-control required" id="mce-ENVIRO" rows="2"></textarea>
+          <textarea name="ENVIRO" class="form-control required" id="mce-ENVIRO" rows="4"></textarea>
+          <div class="invalid-feedback">This is a required question</div>
         </div>
 
-        <div class="form-check pl-3">
-          <input class="form-check-input" type="checkbox" value="" id="codeofconduct">
+        <div class="form-check pl-3 has-danger">
+          <input class="form-check-input required" type="checkbox" value="" id="codeofconduct">
           <label class="form-check-label" for="codeofconduct">
             I have read and agree to the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of
               Conduct</a>
           </label>
         </div>
 
-        <div class="form-check pl-3">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
+        <div class="form-check pl-3 has-danger">
+          <input class="form-check-input required" type="checkbox" value="" id="sharedata">
+          <label class="form-check-label" for="sharedata">
             I authorize you to share my application/registration information for event administration, ranking, MLH
             administration, pre- and post-event informational e-mails, and occasional messages about hackathons in-line
             with the <a href="https://mlh.io/privacy">MLH Privacy Policy</a>. I further I agree to the terms of both the
@@ -229,7 +242,7 @@
         </div>
 
         <div class="form-group col-12 text-center mt-0">
-          <button type="button" id="back-button-3" class="apply-button button col-lg-2 col-sm-4 col-xs-2 p-2" style="background-color: rgb(192, 192, 192)">Back</button>
+          <button type="button" id="back-button-3" class="apply-button button col-lg-2 col-sm-4 col-xs-2 p-2 mb-5" style="background-color: rgb(192, 192, 192)">Back</button>
         </div>
 
       </div>
@@ -253,13 +266,24 @@
 
 <script>
   $("#next-button-1").click(function () {
-    $("#form-pt-1").addClass("d-none");
-    $("#form-pt-2").removeClass("d-none");
+    if(validateForm("#form-pt-1")) {
+      $("#form-pt-1").addClass("d-none");
+      $("#form-pt-2").removeClass("d-none");
+    }
   });
 
   $("#next-button-2").click(function () {
-    $("#form-pt-2").addClass("d-none");
-    $("#form-pt-3").removeClass("d-none");
+    if(validateForm("#form-pt-2")) {
+      $("#form-pt-2").addClass("d-none");
+      $("#form-pt-3").removeClass("d-none");
+    }
+  });
+
+  $("#mc-embedded-subscribe").click(function (e) {
+    e.preventDefault();
+    if(validateForm("#form-pt-3")) {
+      $("#mc-embedded-subscribe-form").submit();
+    }
   });
 
   $("#back-button-2").click(function () {
@@ -270,6 +294,27 @@
   $("#back-button-3").click(function () {
     $("#form-pt-2").removeClass("d-none");
     $("#form-pt-3").addClass("d-none");
+  });
+
+  function validateForm(form) {
+    var valid = true;
+    var required = $(form).find(".required");
+    
+    $.each(required, function(index, item) {
+      if (item.value == "" && !item.checked) {
+        $(`#${item.id}`).addClass('is-invalid');
+        valid = false;
+      }
+    });
+    return valid;
+  }
+
+  $("input,select,textarea").focus(function(item) {
+    $(`#${this.id}`).removeClass('is-invalid');
+  });
+
+  $("input,select,textarea").change(function(item) {
+    $(`#${this.id}`).removeClass('is-invalid');
   });
 </script>
 
