@@ -15,3 +15,4 @@ build:
     - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/articles --bucket uwen.ca --key articles --acl public-read
     - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/sponsorship --bucket uwen.ca --key sponsorship --acl public-read
     - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/apply --bucket uwen.ca --key apply --acl public-read
+    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/thanks-for-applying --bucket uwen.ca --key thanks-for-applying --acl public-read

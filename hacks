@@ -68,7 +68,7 @@
         <div class="col-xl-7 col-lg-12 col-md-12 my-auto p-0">
           <h2 class="section-title">An Energy First Hackathon ⚡</h2>
           <p class="description-text">uwEnergyHacks is different than your regular, run-of-the-mill hackathon. This hackathon is focused solely around a series of energy-related problems that exist in our world today, how will you solve them?</p>
-          <a href="#apply" class="button-jump"><button class="apply-button button col-6 p-2">Apply Now</button></a>
+          <a href="apply" class="button-jump"><button class="apply-button button col-6 p-2">Apply Now</button></a>
         </div>
         <div class="col-xl-4 d-none d-xl-block m-3">
           <img class="col-12 img-responsive" src="img/hacks/robot.svg"/>
@@ -179,34 +179,13 @@
       <div id="apply" class="row col-12 p-0 d-flex justify-content-between my-4 mx-0">
         <div class="col-12 my-auto p-0">
           <h2 class="section-title">Apply 💻</h2>
-          <div class="col-xl-4 d-none d-xl-block mx-auto p-0">
+          <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto p-0">
             <img class="col-12 img-responsive" src="img/hacks/forest.svg"/>
           </div>
-          <h3 class="text-center mt-3">Applications open on <strong>APRIL 8 2019</strong></h3>
-          <p class="description-text text-center">Subscribe and Follow To Get Notified!</p>
-          <div id="email" class="col-12 p-0 mx-auto text-black text-center">
-            <form class="mx-auto row col-xl-6 col-lg-8 col-md-10 col-sm-12 p-0" action="https://uwen.us16.list-manage.com/subscribe/post?u=dfd3241e2fbaa3f7ce6c19b0f&amp;id=8221eb0b94"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-            novalidate>
-            <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="required email col-9 email-input-light"
-              placeholder="student@email.com">
-            <div class="input-group-append col-3 p-0">
-              <button type="submit" class="email-button-light col-12 p-2" value="Subscribe" name="subscribe" value="Subscribe"
-                name="subscribe" type="button" id="mc-embedded-subscribe">Subscribe</button>
-            </div>
-          </form>
+          <div class="text-center my-4">
+            <a href="apply" class="button-jump"><button class="apply-button button col-6 p-2 mx-auto">Apply Now</button></a>
           </div>
-
-          <div class="col-12 my-5 d-flex justify-content-center">
-            <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank"><img class="img-fluid social m-2"
-                src="img/social/facebook.svg"></a>
-            <a href="https://twitter.com/uwaterlooenergy" target="_blank"><img class="img-fluid social m-2"
-                src="img/social/twitter.svg"></a>
-            <a href="https://www.linkedin.com/company/uw-energy-network/about/" target="_blank"><img class="img-fluid social m-2"
-                src="img/social/linkedin.svg"></a>
-            <a href="https://www.instagram.com/uwenergynetwork/" target="_blank"><img class="img-fluid social m-2"
-                src="img/social/instagram.svg"></a>
-          </div>
+          <h3 class="text-center my-4">Applications close on <strong>May 1 2019</strong></h3>
         </div>
       </div>
     </div>
@@ -228,7 +207,6 @@
 <script src="js/execs.js"></script>
 
 <script src="js/lightbulbs.js"></script>
-<script src="js/page.js"></script>
 <script src="js/email.js"></script>
 
 </html>
