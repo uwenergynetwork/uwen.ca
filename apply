@@ -42,7 +42,7 @@
 
       <div id="form-pt-1">
         <h3 class="section-title text-dark">About You 🔨</h3>
-        <p>We need a little information about you. uwEnergyHacks evaluates our applications blind to name and gender.</p>
+        <p>We need a little information about you. uwEnergyHacks does not consider name, gender or race in our evaluation process.</p>
 
         <div class="form-group has-danger">
           <label for="mce-FIRSTNAME">First Name</label>
@@ -218,6 +218,12 @@
             words)</label>
           <textarea name="ENVIRO" class="form-control required" id="mce-ENVIRO" rows="4"></textarea>
           <div class="invalid-feedback">This is a required question</div>
+        </div>
+
+        <div class="form-group">
+          <label for="mce-TEAM">If applying as a team (up to 4 people), create a unique team name</label>
+          <input type="text" name="TEAM" class="form-control" id="mce-TEAM"
+            placeholder="scrantonicity 2">
         </div>
 
         <div class="form-check pl-3 has-danger">
