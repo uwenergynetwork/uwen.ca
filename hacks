@@ -117,8 +117,11 @@
           <h5>Will there be food?</h5>
           <p>Yes! There will be lunch, dinner, snacks, coffee and more, so bring your appetite!</p>
 
+          <h5>Will there be swag/prizes?</h5>
+          <p>Of course! We have partnered with MLH and a variety of sponsors to bring great swag/prizes to the event!</p>
+
           <h5>Do I need to code something to win?</h5>
-          <p>Nope! This hackathon encourages all types of solutions, including mockups and videos.</p>
+          <p>Nope! This hackathon encourages all types of solutions, including mockups and videos in addition to technical solutions.</p>
 
           <h5>Who can apply?</h5>
           <p>Any university student is eligible to attend!</p>
@@ -133,17 +136,17 @@
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
         <div class="col-12 my-auto p-0 row">
           <h2 class="section-title col-12">Sponsored by</h2>
-          <div class="col-xl-8 col-lg-9 col-sm-10 col-10 p-2 my-4 mx-auto">
-            <a href="https://beic.ca" target="_blank"><img class="col-12 img-responsive" src="img/hacks/sponsors/beic.png"/></a>
+          <div class="col-xl-8 col-lg-9 col-sm-10 col-10 p-2 mt-4 mx-auto">
+            <a href="https://beic.ca" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/sponsors/beic.png"/></a>
           </div>
           <div class="col-xl-6 col-lg-7 col-sm-7 col-7 p-2 my-auto mx-auto">
-            <a href="https://github.com" target="_blank"><img class="col-12 img-responsive" src="img/hacks/sponsors/github.svg"/></a>
+            <a href="https://github.com" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/sponsors/github.svg"/></a>
           </div>
           <div class="col-xl-5 col-lg-5 col-sm-5 col-5 p-0 my-auto mx-auto">
-            <a href="https://balsamiq.com" target="_blank"><img class="col-12 img-responsive" src="img/hacks/sponsors/balsamiq.svg"/></a>
+            <a href="https://balsamiq.com" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/sponsors/balsamiq.svg"/></a>
           </div>
           <div class="col-xl-6 col-lg-7 col-sm-7 col-7 p-0 my-auto mx-auto">
-            <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img class="col-12 img-responsive" src="img/hacks/sponsors/sticker-mule.svg"/></a>
+            <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/sponsors/sticker-mule.svg"/></a>
           </div>
         </div>
       </div>
@@ -154,28 +157,31 @@
         <div class="col-12 my-auto p-0 row">
           <h2 class="section-title col-12">Partnering with</h2>
           <div class="col-xl-5 col-lg-9 col-sm-10 col-10 p-4 my-auto mx-auto">
-            <a href="https://mlh.io/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/mlh.png"/></a>
+            <a href="https://mlh.io/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/mlh.png"/></a>
           </div>
           <div class="col-xl-5 col-lg-9 col-sm-10 col-10 p-2 my-auto mx-auto">
-            <a href="https://uwblueprint.org/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/blueprint.png"/></a>
+            <a href="https://uwblueprint.org/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/blueprint.png"/></a>
           </div>
           <div class="col-xl-2 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
-            <a href="http://impactalliance.ca/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/impactalliance.png"/></a>
+            <a href="http://impactalliance.ca/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/impactalliance.png"/></a>
           </div>
           <div class="col-xl-2 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
-            <a href="https://www.instagram.com/uwsustainable/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/uwsustainability.png"/></a>
+            <a href="https://www.instagram.com/uwsustainable/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/uwsustainability.png"/></a>
           </div>
           <div class="col-xl-2 col-lg-4 col-sm-6 col-6 p-3 my-auto mx-auto">
-            <a href="https://www.facebook.com/UWCoffeeNCode/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/coffeeandcode.png"/></a>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
-            <a href="https://starterhacks.ca/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/starterhacks.png"/></a>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
-            <a href="https://tedxuw.com/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/tedxuw.png"/></a>
+            <a href="https://www.facebook.com/UWCoffeeNCode/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/coffeeandcode.png"/></a>
           </div>
           <div class="col-xl-2 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
-            <a href="https://www.foundersbeta.com/" target="_blank"><img class="col-12 img-responsive" src="img/hacks/partners/foundersbeta.png"/></a>
+            <a href="https://starterhacks.ca/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/starterhacks.png"/></a>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
+            <a href="https://tedxuw.com/" target="_blank"><img class="col-12 img-responsive p-0" src="img/hacks/partners/tedxuw.png"/></a>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
+            <a href="https://enghack.com/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/enghack.svg"/></a>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-6 p-0 my-auto mx-auto">
+            <a href="https://www.foundersbeta.com/" target="_blank"><img class="col-12 img-responsive  p-2" src="img/hacks/partners/foundersbeta.png"/></a>
           </div>
         </div>
       </div>
