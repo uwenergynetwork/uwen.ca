@@ -208,14 +208,13 @@
             <option value="" default>Select an option</option>
             <option value="New to coding">New to coding</option>
             <option value="Somewhat experienced">Somewhat experienced</option>
-            <option value="Pro coder">Pro coder</option>
+            <option value="Pro coder">Very Experienced</option>
           </select>
           <div class="invalid-feedback">This is a required question</div>
         </div>
 
         <div class="form-group has-danger">
-          <label for="mce-ENVIRO">What about energy initiatives/sustainability interests you the most? (in less than 100
-            words)</label>
+          <label for="mce-ENVIRO">What about energy initiatives/sustainability interests you the most? (256 character limit)</label>
           <textarea name="ENVIRO" class="form-control required" id="mce-ENVIRO" rows="4"></textarea>
           <div class="invalid-feedback">This is a required question</div>
         </div>
