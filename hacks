@@ -124,7 +124,10 @@
           <p>Nope! This hackathon encourages all types of solutions, including mockups and videos in addition to technical solutions.</p>
 
           <h5>Who can apply?</h5>
-          <p>Any university student is eligible to attend!</p>
+          <p>Any student is eligible to attend!</p>
+
+          <h5>Do we follow a Code of Conduct?</h5>
+          <p>Yes, uwEnergyHacks follows the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a>.</p>
         </div>
         <div class="col-xl-4 d-none d-xl-block m-3 my-auto">
           <img class="col-12 img-responsive" src="img/hacks/question.svg"/>
