@@ -41,6 +41,19 @@
       <h1 id="subtitle" class="mb-2">Apply</h1>
 
       <div id="form-pt-1">
+
+        <div class="progress my-3 position-relative">
+          <div class="progress-bar bg-warning" role="progressbar" style="width:33.333%">
+            About You
+          </div>
+          <div class="progress-bar bg-secondary" role="progressbar" style="width:33.334%">
+            Logistics
+          </div>
+          <div class="progress-bar bg-dark" role="progressbar" style="width:33.333%">
+            Hackathon
+          </div>
+        </div>
+
         <h3 class="section-title text-dark">About You 🔨</h3>
         <p>We need a little information about you. uwEnergyHacks does not consider name, gender or race in our evaluation process.</p>
 
@@ -136,7 +149,21 @@
       </div>
 
       <div id="form-pt-2" class="d-none">
-        <h3 class="section-title text-dark">Logstics 🚚</h3>
+
+        <div class="progress my-3 position-relative">
+          <div class="progress-bar bg-warning" role="progressbar" style="width:33.333%">
+            About You
+          </div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width:33.334%">
+            Logistics
+          </div>
+          <div class="progress-bar bg-secondary" role="progressbar" style="width:33.333%">
+            Hackathon
+          </div>
+        </div>
+
+        <h3 class="section-title text-dark">Logistics 🚚</h3>
+
         <p>We need a little more information about you.</p>
 
         <div class="form-group">
@@ -185,6 +212,19 @@
       </div>
 
       <div id="form-pt-3" class="d-none">
+
+        <div class="progress my-3 position-relative">
+          <div class="progress-bar bg-warning" role="progressbar" style="width:33.333%">
+            About You
+          </div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width:33.334%">
+            Logistics
+          </div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width:33.333%">
+            Hackathon
+          </div>
+        </div>
+
         <h3 class="section-title text-dark">Hackathon ⚙️</h3>
         <p>We want to know why you want to attend uwEnergyHacks</p>
 
@@ -208,7 +248,7 @@
             <option value="" default>Select an option</option>
             <option value="New to coding">New to coding</option>
             <option value="Somewhat experienced">Somewhat experienced</option>
-            <option value="Pro coder">Very Experienced</option>
+            <option value="Pro coder">Very experienced</option>
           </select>
           <div class="invalid-feedback">This is a required question</div>
         </div>
