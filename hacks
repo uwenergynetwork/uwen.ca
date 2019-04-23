@@ -159,6 +159,9 @@
             <div class="col-xl-3 col-lg-5 col-sm-7 col-7 p-2 my-auto mx-auto">
               <a href="https://balsamiq.com" target="_blank"><img class="col-12 img-responsive p-0" src="img/hacks/sponsors/balsamiq.svg"/></a>
             </div>
+            <div class="col-xl-3 col-lg-3 col-sm-5 col-4 my-auto mx-auto">
+              <a href="https://www.digitalocean.com/" target="_blank"><img class="col-12 img-responsive p-1" src="img/hacks/sponsors/digitalocean.svg"/></a>
+            </div>
             <div class="col-xl-3 col-lg-7 col-sm-7 col-7 p-2 my-auto mx-auto">
               <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img class="col-12 img-responsive p-0" src="img/hacks/sponsors/sticker-mule.svg"/></a>
             </div>
@@ -177,14 +180,17 @@
             </div>
           </div>
           <div class="row mx-auto col-12">
-            <div class="col-xl-4 col-lg-6 col-sm-10 col-7 p-2 my-auto mx-auto">
+            <div class="col-xl-3 col-lg-6 col-sm-10 col-6 p-2 my-auto mx-auto">
               <a href="https://uwblueprint.org/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/blueprint.png"/></a>
             </div>
-            <div class="col-xl-4 col-lg-6 col-sm-10 col-6 p-2 my-auto mx-auto">
+            <div class="col-xl-3 col-lg-6 col-sm-10 col-6 p-2 my-auto mx-auto">
               <a href="https://fossilfreeuw.ca/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/ffuw.png"/></a>
             </div>
-            <div class="col-xl-3 col-lg-4 col-sm-7 col-4 p-2 my-auto mx-auto">
+            <div class="col-xl-2 col-lg-4 col-sm-5 col-4 p-2 my-auto mx-auto">
               <a href="https://uwcampuscompost.wixsite.com/uwcc" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/campuscompostuw.png"/></a>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-7 col-4 p-2 my-auto mx-auto">
+              <a href="https://www.phosphopowergroup.com/" target="_blank"><img class="col-12 img-responsive p-2" src="img/hacks/partners/phosphopowergroup.png"/></a>
             </div>
           </div>
           <div class="col-xl-2 col-lg-4 col-sm-6 col-3 py-0 p-0 my-auto mx-auto">
