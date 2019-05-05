@@ -104,9 +104,9 @@
   $("#name")[0].innerHTML = url.searchParams.get("name");
 
   if(url.searchParams.get("round") == 1){
-    time = "May 9th 2019, 23:59";
+    $("#end-time")[0].innerHTML = "May 9th 2019, 23:59";
+    time = "Thu, May 9 2019 23:59:00 EST";
   }
-  $("#end-time")[0].innerHTML = time;
 
   $("#email1")[0].innerHTML = url.searchParams.get("email");
   $("#email2")[0].innerHTML = url.searchParams.get("email");
