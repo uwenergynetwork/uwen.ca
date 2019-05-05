@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>RSVP to uwEnergyHacks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+  <meta name="theme-color" content="#4B4B4B" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.ico?" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Open+Sans:800" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133695878-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-133695878-1');
+  </script>
+
+</head>
+
+<a id="mlh-trust-badge" class="d-none d-xl-block" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=yellow" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-yellow.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+
+<body id="about-page">
+
+  <div id="navbar"></div>
+
+  <div class="col-lg-8 mx-auto bg-light bg-page mt-5 pt-5 p-xl-5 p-lg-4">
+    <h1 id="subtitle">Congrats <span id="name">{NAME}</span>, you're in 👍</h1>
+    <p id="thank-you-message">We have gone through your application and would love to have you at the event! To attend please complete the RSVP process below by <strong style="font-size: 120%" id="end-time">{ENDTIME}</strong>.</p>
+    <hr>
+
+    <div class="col-xl-6 col-lg-8 col-sm-10 col-xs-11 mx-auto p-0">
+      <img class="col-12 img-responsive" src="img/hacks/forest.svg"/>
+      <h4 class="text-center m-3">Invite expires <strong id="time-left"> 7 days</strong></h4>
+    </div>
+
+    <hr>
+
+    <p>uwEnergyHacks will be taking place on <strong>June 1st at 8:30am</strong> and will end <strong>June 2nd at 1:00pm</strong>. The event will be held at <a href="https://goo.gl/maps/jaYesEL4anJLGnKV9">the Science Teaching Complex @ uWaterloo</a>. <br>At this time we will <strong style="font-size: 120%">not be able to provide transportation assistance to the event.</strong> We encourage hackers to carpool and use public transit to get to the venue!</p>
+
+    <hr>
+
+    <h3 class="section-title text-dark mt-5">Step 1</h3>
+    <p>Join jumpstart.me using your email address[<code id="email1">{your email}</code>] and RSVP for our event. We will be using jumpstart.me to check people in at the event so this step is mandatory!</p>
+    <div class="form-group col-12 text-center mb-4">
+      <a href="http://jpst.me/dk57" target="_blank"><button class="apply-button button col-lg-3 col-sm-5 col-xs-3 p-2">RSVP on Jumpstart.me</button></a>
+    </div>
+
+    <h3 class="section-title text-dark mt-5">Step 2</h3>
+    <p>Join our slack using your email address[<code id="email2">{your email}</code>]. We have channels setup for making teams, asking questions, important announcements and much more!</p>
+    <div class="form-group col-12 text-center mb-4">
+      <a href="https://join.slack.com/t/uwenergyhacks/shared_invite/enQtNjIzODcxMjcyNTE5LTc4MWM2YjA2NGNlY2Y3NDRmODU1ZTY0Zjk1NWRkOWRmNTc1MmMxNjRjMzViYjUzMTFiNWIyZGNiNGZjOTJlMDA" target="_blank"><button class="apply-button button col-lg-3 col-sm-5 col-xs-3 p-2">Join Slack</button></a>
+    </div>
+
+    <h3 class="section-title text-dark mt-5">Step 3 <span style="font-size: 60%">(If you are under 18)</span></h3>
+    <p class="mb-4">Get your parent/guardian to sign the <a href="wavier.pdf" target="_blank">waiver</a> and email a scanned copy to <a href="mailto:wavier@uwen.ca">waiver@uwen.ca</a>.</p>
+
+    <h3 class="section-title text-dark mt-5">Step 4</h3>
+    <p>Connect with us on social media to stay up to date with the latest info on the event and ask any questions!</p>
+    <div class="col-12 mb-5 pb-5 text-center">
+      <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank"><img class="img-fluid social m-0 py-md-2"
+          src="img/social/facebook.svg"></a>
+      <a href="https://twitter.com/uwaterlooenergy" target="_blank"><img class="img-fluid social m-0 py-md-2"
+          src="img/social/twitter.svg"></a>
+      <a href="https://www.instagram.com/uwenergynetwork/" target="_blank"><img class="img-fluid social m-0 py-md-2"
+          src="img/social/instagram.svg"></a>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+  crossorigin="anonymous"></script>
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
+
+<script src="js/react.production.min.js"></script>
+<script src="js/react-dom.production.min.js"></script>
+<script src="js/papaparse.min.js"></script>
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
+
+<!-- Load our React component. -->
+<script src="js/navbar.js"></script>
+
+<script>
+  //https://uwen.ca/rspv?hacker=43503f89ff21fc4c07bde6bd681cfe4c08fdffec39ddd3d0543b16a06d53f91343503f89ff21fc4c07bde6bd6813f913&name=Test%20Name&email=test@gmail.com&round=1&id=cfe4c08fdffec39ddd3d0543b16a06d5cfe4c08fdffec39ddd3d0543b16a06d5fe4c08fdffec39ddd3d0543b16a06d5
+  var time = "May 9th 2019, 23:59";
+  var url_string = window.location.href
+  var url = new URL(url_string);
+  $("#name")[0].innerHTML = url.searchParams.get("name");
+
+  if(url.searchParams.get("round") == 1){
+    time = "May 9th 2019, 23:59";
+  }
+  $("#end-time")[0].innerHTML = time;
+
+  $("#email1")[0].innerHTML = url.searchParams.get("email");
+  $("#email2")[0].innerHTML = url.searchParams.get("email");
+
+  $("#time-left")[0].innerHTML = moment(time).fromNow();
+  window.setInterval(function() {
+    $("#time-left")[0].innerHTML = moment(time).fromNow();
+  }, 1000);
+
+  if(moment(time).isBefore(moment()))
+  {
+    window.location.replace("https://uwen.ca/hacks");
+  }
+
+</script>
+
+</html>
