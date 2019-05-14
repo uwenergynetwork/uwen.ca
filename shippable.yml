@@ -17,3 +17,4 @@ build:
     - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/apply --bucket uwen.ca --key apply --acl public-read
     - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/thanks-for-applying --bucket uwen.ca --key thanks-for-applying --acl public-read
     - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/rsvp --bucket uwen.ca --key rsvp --acl public-read
+    - aws s3api copy-object --content-type="text/html" --content-language="html" --metadata-directive="REPLACE" --copy-source uwen.ca/schedule --bucket uwen.ca --key schedule --acl public-read

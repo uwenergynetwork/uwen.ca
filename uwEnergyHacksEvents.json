@@ -1,0 +1,107 @@
+[{
+	"title": "Hacker Checkin @ STC Basement, uWaterloo",
+	"start": "2019-06-01T08:30:00+00:00",
+	"end": "2019-06-01T09:00:00+00:00",
+	"color": "#FFC909"
+},
+{
+	"title": "Opening Ceremony",
+	"start": "2019-06-01T10:00:00+00:00",
+	"end": "2019-06-01T010:45:00+00:00",
+	"color": "#FFC909"
+},
+{
+	"title": "Hacking Begins",
+	"start": "2019-06-01T10:45:00+00:00",
+	"color": "#FFC909"
+},
+{
+	"title": "Hacking Ends (PROJECTS DUE ON DEVPOST)",
+	"start": "2019-06-02T08:30:00+00:00",
+	"end": "2019-06-02T09:00:00+00:00",
+	"color": "#FFC909"
+},
+{
+	"title": "Lunch",
+	"start": "2019-06-01T12:00:00+00:00",
+	"end": "2019-06-01T12:45:00+00:00",
+	"color": "rgb(230, 100, 30)"
+},
+{
+	"title": "Dinner",
+	"start": "2019-06-01T19:00:00+00:00",
+	"end": "2019-06-01T19:45:00+00:00",
+	"color": "rgb(230, 100, 30)"
+},
+{
+	"title": "Midnight Snack",
+	"start": "2019-06-02T00:00:00+00:00",
+	"end": "2019-06-01T00:45:00+00:00",
+	"color": "rgb(230, 100, 30)"
+},
+{
+	"title": "Breakfast",
+	"start": "2019-06-02T08:00:00+00:00",
+	"end": "2019-06-02T08:30:00+00:00",
+	"color": "rgb(230, 100, 30)"
+},
+{
+	"title": "The Difficulty of Running Social Enterprises Workshop",
+	"start": "2019-06-01T13:15:00+00:00",
+	"end": "2019-06-01T13:45:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "Tech for Social Good Workshop",
+	"start": "2019-06-01T14:00:00+00:00",
+	"end": "2019-06-01T14:30:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "Why Renewables are the Future Workshop",
+	"start": "2019-06-01T14:45:00+00:00",
+	"end": "2019-06-01T15:15:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "Laurentiu Anton Workshop",
+	"start": "2019-06-01T15:30:00+00:00",
+	"end": "2019-06-01T16:00:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "Why Renewables Will Never Work Without Batteries Workshop",
+	"start": "2019-06-01T16:15:00+00:00",
+	"end": "2019-06-01T16:45:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "Pitching Workshop",
+	"start": "2019-06-01T17:00:00+00:00",
+	"end": "2019-06-01T17:30:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "FossilFreeUW Workshop",
+	"start": "2019-06-01T20:30:00+00:00",
+	"end": "2019-06-01T21:00:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "CampusCompost Workshop",
+	"start": "2019-06-01T21:15:00+00:00",
+	"end": "2019-06-01T21:45:00+00:00",
+	"color": "rgb(150, 150, 200)"
+},
+{
+	"title": "Solution Pitches",
+	"start": "2019-06-02T09:15:00+00:00",
+	"end": "2019-06-02T11:00:00+00:00",
+	"color": "#FFC909"
+},
+{
+	"title": "Closing Ceremony/Prizes",
+	"start": "2019-06-02T11:30:00+00:00",
+	"end": "2019-06-02T012:30:00+00:00",
+	"color": "#FFC909"
+}]
