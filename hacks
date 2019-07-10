@@ -60,6 +60,18 @@
     <hr>
 
     <div>
+      <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 m-3">
+          <img class="col-12 img-responsive" src="img/hacks/forest.svg"/>
+        </div>
+        <div class="col-xl-7 col-lg-12 col-md-12 my-auto p-0">
+          <h2 class="section-title">Want to Help Organize uwEnergyHacks 2020?</h2>
+          <p class="description-text">We are looking for some highly motivated individuals to help grow the event and make it a success once again.</p>
+          <p class="description-text">Applications close on <strong>July 19th, 2019</strong></p>
+          <a href="https://forms.gle/AgvDcP6A6n1FKrmd8" target="_blank"><button class="button apply-button col-lg-6 col-sm-12 p-2">Apply Now</button></a>
+        </div>
+      </div>
+      <hr>
       <br>
       <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-xl-none m-3">
