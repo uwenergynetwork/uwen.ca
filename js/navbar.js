@@ -76,7 +76,7 @@ var NavBar = function (_React$Component) {
 								React.createElement(
 									"a",
 									{ className: "px-3 navbar-link " + (this.state.page.startsWith("hacks") ? "current-page" : ""), href: "hacks" },
-									"uwEnergyHacks"
+									"EnergyHacks"
 								)
 							),
 							React.createElement(
