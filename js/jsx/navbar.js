@@ -31,7 +31,7 @@ class NavBar extends React.Component {
                       ? "current-page"
                       : "")
                   }
-                  href="index"
+                  href="index.html"
                 >
                   Home
                 </a>
@@ -42,7 +42,7 @@ class NavBar extends React.Component {
                     "px-3 navbar-link " +
                     (this.state.page.startsWith("about") ? "current-page" : "")
                   }
-                  href="about"
+                  href="about.html"
                 >
                   About
                 </a>
@@ -53,7 +53,7 @@ class NavBar extends React.Component {
                     "px-3 navbar-link " +
                     (this.state.page.startsWith("events") ? "current-page" : "")
                   }
-                  href="events"
+                  href="events.html"
                 >
                   Events
                 </a>
@@ -64,7 +64,7 @@ class NavBar extends React.Component {
                     "px-3 navbar-link " +
                     (this.state.page.startsWith("hacks") ? "current-page" : "")
                   }
-                  href="hacks"
+                  href="hacks.html"
                 >
                   EnergyHacks
                 </a>
@@ -77,7 +77,7 @@ class NavBar extends React.Component {
                       ? "current-page"
                       : "")
                   }
-                  href="articles"
+                  href="articles.html"
                 >
                   Articles
                 </a>
