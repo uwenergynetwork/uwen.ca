@@ -13,13 +13,13 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var e = React.createElement;
 var execs = [{
-	name: "Cameron Martin",
-	position: "Co-president",
-	program: "Nanotechnology Engineering",
-	img: "cameron.png"
+	name: "Monika Mikhail",
+	position: "President",
+	program: "Chemical Engineering",
+	img: "headshot.png"
 }, {
 	name: "Aidan O'Gorman",
-	position: "Co-president",
+	position: "VP Club Transition",
 	program: "Chemical Engineering",
 	img: "aidan.png"
 }, {
@@ -28,35 +28,25 @@ var execs = [{
 	program: "Computer Science",
 	img: "jamie.png"
 }, {
-	name: "Emma Lozhkin",
-	position: "VP Tech",
-	program: "Computer Engineering",
-	img: "emma.png"
-},, {
-	name: "Maya Gupta",
-	position: "VP Events",
-	program: "Management Engineering",
-	img: "maya.png"
-}, {
-	name: "Guy Brodsky",
-	position: "VP Finance/Sponsorship",
-	program: "Environment, Resources and Sustainability",
-	img: "guy.png"
-}, {
-	name: "Matthew Teelucksingh",
+	name: "Yonael Debebe",
 	position: "VP Operations",
-	program: "Environment, Resources and Sustainability",
-	img: "matt.png"
+	program: "Systems Design Engineering",
+	img: "headshot.png"
 }, {
-	name: "Akshar Goyal",
-	position: "Events Outreach Lead",
-	program: "Computer Science",
-	img: "akshar.png"
+	name: "Shazza Riaz",
+	position: "Team Member",
+	program: "Arts & Business",
+	img: "headshot.png"
 }, {
-	name: "Gloria Li",
-	position: "Events Outreach Lead",
-	program: "Accounting and Financial Management",
-	img: "gloria.png"
+	name: "Alyssa Leon",
+	position: "Team Member",
+	program: "Nanotechnology Engineering",
+	img: "headshot.png"
+}, {
+	name: "Bonnie Gao",
+	position: "Team Member",
+	program: "Environment, Resources, & Sustainability",
+	img: "headshot.png"
 }];
 
 var Execs = function (_React$Component) {
