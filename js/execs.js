@@ -14,29 +14,29 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var e = React.createElement;
 var execs = [{
 	name: "Monika Mikhail",
-	position: "President",
+	position: "Co-President",
 	program: "Chemical Engineering",
-	img: "headshot.png"
+	img: "monika.png"
 }, {
 	name: "Aidan O'Gorman",
-	position: "VP Club Transition",
+	position: "Co-President",
 	program: "Chemical Engineering",
 	img: "aidan.png"
+}, {
+	name: "Yonael Debebe",
+	position: "VP Operations",
+	program: "Systems Design Engineering",
+	img: "yonael.png"
+}, {
+	name: "Shazza Riaz",
+	position: "Team Member",
+	program: "Economics & Business",
+	img: "shazza.png"
 }, {
 	name: "Jamie Pinheiro",
 	position: "VP Tech",
 	program: "Computer Science",
 	img: "jamie.png"
-}, {
-	name: "Yonael Debebe",
-	position: "VP Operations",
-	program: "Systems Design Engineering",
-	img: "headshot.png"
-}, {
-	name: "Shazza Riaz",
-	position: "Team Member",
-	program: "Arts & Business",
-	img: "headshot.png"
 }, {
 	name: "Alyssa Leon",
 	position: "Team Member",
