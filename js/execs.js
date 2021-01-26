@@ -29,7 +29,7 @@ var execs = [{
 	img: "yonael.png"
 }, {
 	name: "Shazza Riaz",
-	position: "Team Member",
+	position: "VP Marketing",
 	program: "Economics & Business",
 	img: "shazza.png"
 }, {
